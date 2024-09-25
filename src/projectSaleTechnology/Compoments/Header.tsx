@@ -18,11 +18,17 @@ const Header = () => {
           <input className='bg-white pl-4 flex-1 rounded-l-lg' placeholder='Bạn tìm gì hôm nay' type="text" name="" id="" />
           <div className='w-12 bg-white rounded-r-lg'><IoIosSearch className='text-blue-900 text-2xl mt-3 ml-3 cursor-pointer' /></div>
         </div>
-        <div className='relative'>
-          <IoCartOutline className='text-white text-4xl mt-[10px] mr-[44px] cursor-pointer' />
-          <div className='absolute right-[36px] top-0 bg-red-600 text-white rounded-[50%] px-1'>{count}</div>
+        <div className='flex relative'>
+          <IoCartOutline className='text-white text-4xl mt-[10px] cursor-pointer' />
+          <div className='absolute right-[110px] top-0 bg-red-600 text-white rounded-[50%] px-1'>{count}</div>
+          <div className='text-white pt-[18px] ml-[10px] mr-[44px]'>Giỏ hàng</div>
         </div>
-        <Link to={"/ProductsManager"}><FaRegUserCircle className='text-white text-4xl mt-[10px] cursor-pointer' /></Link>
+        <Link to={"/ProductsManager"}>
+          <div className='flex'>
+            <FaRegUserCircle className='text-white text-4xl mt-[10px] cursor-pointer' />
+            <div className='text-white pt-[18px] ml-[10px] mr-[44px]'>Tài khoản</div>
+          </div>
+        </Link>
       </div>
       <div className='flex justify-between h-[30px] mx-[100px] text-white rounded-xl'>
         <div className='cursor-pointer w-[100px] text-center flex-1 hover:text-blue-900 hover:bg-white transition'>Máy tính bàn</div>

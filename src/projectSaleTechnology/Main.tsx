@@ -26,7 +26,7 @@
 
     return (
       <div className="w-[1200px] mt-[30px]">
-        <div className="bg-white p-[14px] pt-0 rounded shadow-md"> 
+        <div className="bg-white p-[14px] pt-0 rounded"> 
           <div className="flex">
             <div className="py-[10px] ml-[8px] text-xl flex-1">Flash Sale</div>
             <div className="py-[10px] ml-[8px] mr-[12px] font-semibold text-blue-900"><Link className="flex" to={"/FlashSale"}>More &nbsp; <FaArrowRight className='mt-1'/></Link></div>
@@ -36,7 +36,7 @@
           </div>
         </div>
 
-        <div className="bg-white mt-[30px] p-[14px] pt-0 rounded shadow-lg">
+        <div className="bg-white mt-[30px] p-[14px] pt-0 rounded">
           <div className="flex">
             <div className="py-[10px] ml-[8px] text-xl flex-1">Mall</div>
             <div className="py-[10px] ml-[8px] mr-[12px] font-semibold text-blue-900"><Link className="flex" to={"/Mall"}>More &nbsp; <FaArrowRight className='mt-1'/></Link></div>
@@ -46,7 +46,7 @@
           </div>
         </div>
 
-        <div className="bg-white mt-[30px] p-[14px] pt-0 rounded shadow-md">
+        <div className="bg-white mt-[30px] p-[14px] pt-0 rounded">
           <div className="flex">
             <div className="py-[10px] ml-[8px] text-xl flex-1">Just For You</div>
             <div className="py-[10px] ml-[8px] mr-[12px] font-semibold text-blue-900"><Link className="flex" to={"/JustForYou"}>More &nbsp; <FaArrowRight className='mt-1'/></Link></div>
