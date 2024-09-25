@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gọi API Phone</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+        }
+        ul {
+            list-style-type: none;
+            padding: 0;
+        }
+    </style>
+</head>
+<body>
+
+<h1>Danh sách điện thoại</h1>
+<ul id="phone-list"></ul>
+
+<script>
+    const apiUrl = 'http://localhost:4000/saleTechnology';
+
+        async function fetchPhones() {
+            try {
+                const response = await fetch(apiUrl);
+                if (!response.ok) {
+                    throw new Error('Lỗi mạng');
+                }
+                const data = await response.json();
+                console.log(data); // Log dữ liệu ra console
+                displayPhones(data);
+            } catch (error) {
+                console.error('Có lỗi xảy ra:', error);
+            }
+        }
+
+        function displayPhones(phones) {
+            const phoneList = document.getElementById('phone-list');
+            phones.forEach(phone => {
+                const listItem = document.createElement('li');
+                listItem.textContent = `${phone.id}: ${phone.title}`;
+                phoneList.appendChild(listItem);
+            });
+        }
+        fetchPhones();
+    </script>
+
+    </body>
+    </html>
