@@ -18,7 +18,7 @@ const Products = (productsProgs: TProduct) => {
 
   const { isPending, error, data } = useQuery({
     queryKey: ["Products"],
-    queryFn: () => axios.get("https://api.escuelajs.co/api/v1/products"),
+    queryFn: () => axios.get("http://localhost:4000/saleTechnology"),
   });
 
   console.log(data?.data);
@@ -58,7 +58,7 @@ const Products = (productsProgs: TProduct) => {
               }
               alt="Product image"
             />
-            <div className="p-2 bg-slate-200">
+            <div className="grid p-2 bg-slate-200">
               <div className="w-[200px] h-[48px]">{productData.title}</div>
               {discount > 0 ? (
                 <div className="pb-1">
@@ -86,19 +86,14 @@ const Products = (productsProgs: TProduct) => {
                   {productData.price}$
                 </div>
               )}
-              <div className="flex justify-between">
-                <div className="bg-yellow-400 text-black rounded-xl px-2 font-semibold text-xl cursor-pointer">
-                  Buy
-                </div>
                 <button
                   onClick={() => {
                     setCount();
                   }}
-                  className="bg-orange-600 text-black rounded-xl px-2 pb-[2px] text-right font-semibold text-xl cursor-pointer"
+                  className="mx-auto w-full bg-blue-300 text-blue-600 rounded pb-[2px] font-semibold text-xl cursor-pointer"
                 >
                   Add to cart
                 </button>
-              </div>
             </div>
           </div>
         ))}
