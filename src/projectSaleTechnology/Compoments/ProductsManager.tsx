@@ -10,6 +10,7 @@ interface TProductData {
   id: number;
   price: number;
   images: string[];
+  image: string;
   title: string;
   description: string;
 }
@@ -107,7 +108,7 @@ const ProductsManager = (productsProgs: TProductProgs) => {
     const productDescription = e.target.elements.productDescription.value;
     const productPrice = e.target.elements.productPrice.value;
     const categoryId = e.target.elements.categoryId.value;
-    
+
     mutationCreate.mutate({
       images: [productImage],
       title: productTitle,
@@ -121,7 +122,7 @@ const ProductsManager = (productsProgs: TProductProgs) => {
     queryKey: ["Products", page],
     queryFn: () =>
       axios.get(
-        `https://api.escuelajs.co/api/v1/products?offset=${offset}&limit=12`
+        `http://localhost:4000/saleTechnology?offset=${offset}&limit=12`
       ),
   });
 
@@ -145,9 +146,9 @@ const ProductsManager = (productsProgs: TProductProgs) => {
 
   return (
     <div className="grid justify-center bg-white">
-      <div className="w-[968px] flex justify-between">
+      <div className="flex justify-between">
         <form ref={formRef}
-          className="grid w-[968px] my-4 gap-y-2"
+          className="grid mt-4 gap-y-2"
           onSubmit={handleSubmit}
           action=""
         >
@@ -188,44 +189,46 @@ const ProductsManager = (productsProgs: TProductProgs) => {
             Tạo sản phẩm
           </button>
         </form>
-        <div className="flex items-end mb-4 font-semibold text-blue-900">
+        <div className="flex items-end font-semibold text-blue-900">
           <Link className="flex" to={"/"}>
             {" "}
-            Home&nbsp; <FaArrowLeft className="mt-1" />
+            Về trang chủ&nbsp; <FaArrowLeft className="mt-1" />
           </Link>
         </div>
       </div>
 
-      <div className="grid grid-cols-4 gap-2">
+      <div className="grid grid-cols-5 gap-2 w-[1200px] mt-[30px]">
         {data?.data.map((productData: TProductData) => (
-          <div key={productData.id}>
+          <div className=" border-gray-200 rounded-lg border-[1px] overflow-hidden pt-2" key={productData.id}>
             <img
-              className="w-[236px] h-[240px]  bg-cover bg-center"
-              src={productData.images.length > 1 ? productData.images[0] : JSON.parse(productData.images[0])}
+              className="w-full h-[240px] object-contain transition-transform duration-300 ease-in-out transform hover:scale-105"
+              src={productData.image}
               alt="Product image"
             />
-            <div className="p-2 bg-slate-200">
-              <div className="w-[200px] h-[48px]">{productData.title}</div>
+            <div className="grid p-2">
+              <div className="w-[200px] h-[48px] font-medium">{productData.title}</div>
               {discount > 0 ? (
                 <div className="pb-1">
                   <div className="flex justify-between">
-                    <div className="flex text-black font-semibold text-xl">
-                      {productData.price - (productData.price * discount) / 100}
-                      $
-                    </div>
-                    <div className="text-red-600 font-semibold text-xl text-right">
-                      {productsProgs.label}
+                    <div className="flex text-red-700 font-bold text-xl">
+                      {typeof productData.price === "number"
+                        ? (productData.price -
+                          productData.price * (discount / 100)).toLocaleString('vi-VN')
+                        : ""}
+                      <span className="text-sm">₫</span>
                     </div>
                   </div>
                   <div>
                     <div className="flex">
-                      <div className="line-through">{productData.price}$</div>
-                      <div> &nbsp;-{discount}%</div>
+                      <div className="line-through text-gray-400">{productData.price ? productData.price.toLocaleString('vi-VN') : ''}<span className="text-sm">₫</span></div>
+                      <div className="text-red-500 font-semibold"> &nbsp; -{discount}%</div>
                     </div>
                   </div>
                 </div>
               ) : (
-                <span>{productData.price}&</span>
+                <div className="text-red-700 font-bold text-xl">
+                  {productData.price ? productData.price.toLocaleString('vi-VN') : ''}<span className="text-sm">₫</span>
+                </div>
               )}
               <div className="flex">
                 <button

@@ -2,7 +2,7 @@
   "saleTechnology": [
     {
       "id": 1,
-      "title": "iPhone 15",
+      "title": "IPhone 15",
       "price": 22990000,
       "description": "Step into style with these eye-catching sneakers featuring a striking combination of orange and blue hues. Designed for both comfort and fashion, these shoes come with flexible soles and cushioned insoles, perfect for active individuals who don't compromise on style. The reflective silver accents add a touch of modernity, making them a standout accessory for your workout or casual wear.",
       "image": "./imgs-projectsale/phonesProduct/ip15.jpg",
@@ -278,32 +278,6 @@
       "title": "HP Pavilion Gaming i5 12450H/8GB/512GB...",
       "price": 18990000,
       "description": "HP Pavilion Gaming 15 là sự lựa chọn tuyệt vời cho game thủ với vi xử lý i5 12450H và card GTX 1650, mang đến trải nghiệm chơi game mượt mà.",
-      "image": "./imgs-projectsale/laptopsProduct/2.jpg",
-      "images": [
-        "./imgs-projectsale/laptopsProduct/2.jpg",
-        "./imgs-projectsale/laptopsProduct/3.jpg",
-        "./imgs-projectsale/laptopsProduct/4.jpg"
-      ],
-      "category": "laptop"
-    },
-    {
-      "id": 23,
-      "title": "Asus ROG Zephyrus G14 i7 6800HS/16GB/1TB...",
-      "price": 29990000,
-      "description": "Asus ROG Zephyrus G14 GA401 với thiết kế gọn nhẹ và hiệu suất cực cao, trang bị vi xử lý i7 6800HS và card RTX 3060 cho trải nghiệm chơi game tuyệt vời.",
-      "image": "./imgs-projectsale/laptopsProduct/3.jpg",
-      "images": [
-        "./imgs-projectsale/laptopsProduct/3.jpg",
-        "./imgs-projectsale/laptopsProduct/4.jpg",
-        "./imgs-projectsale/laptopsProduct/5.jpg"
-      ],
-      "category": "laptop"
-    },
-    {
-      "id": 24,
-      "title": "Acer Aspire 7 A715 i5 12450H/8GB/512GB...",
-      "price": 15990000,
-      "description": "Acer Aspire 7 A715 sở hữu thiết kế mạnh mẽ, hiệu năng cao với vi xử lý i5 12450H và card GTX 1650, phù hợp cho cả công việc và giải trí.",
       "image": "./imgs-projectsale/laptopsProduct/4.jpg",
       "images": [
         "./imgs-projectsale/laptopsProduct/4.jpg",
@@ -313,36 +287,10 @@
       "category": "laptop"
     },
     {
-      "id": 25,
-      "title": "Lenovo Legion 5 15 i7 12700H/16GB/1TB...",
-      "price": 35990000,
-      "description": "Lenovo Legion 5 15 là một trong những laptop gaming tốt nhất với vi xử lý i7 12700H và card đồ họa RTX 3070, mang lại hiệu suất vượt trội.",
-      "image": "./imgs-projectsale/laptopsProduct/5.jpg",
-      "images": [
-        "./imgs-projectsale/laptopsProduct/5.jpg",
-        "./imgs-projectsale/laptopsProduct/6.jpg",
-        "./imgs-projectsale/laptopsProduct/7.jpg"
-      ],
-      "category": "laptop"
-    },
-    {
-      "id": 26,
-      "title": "MSI GF63 Thin i5 12450H/8GB/512GB...",
-      "price": 16990000,
-      "description": "MSI GF63 Thin được thiết kế mỏng nhẹ, trang bị vi xử lý i5 12450H và card GTX 1650, là lựa chọn hoàn hảo cho game thủ di động.",
-      "image": "./imgs-projectsale/laptopsProduct/6.jpg",
-      "images": [
-        "./imgs-projectsale/laptopsProduct/6.jpg",
-        "./imgs-projectsale/laptopsProduct/7.jpg",
-        "./imgs-projectsale/laptopsProduct/8.jpg"
-      ],
-      "category": "laptop"
-    },
-    {
-      "id": 27,
-      "title": "Dell G15 5520 i7 12700H/16GB/1TB...",
+      "id": 23,
+      "title": "Asus ROG Zephyrus G14 i7 6800HS/16GB/1TB...",
       "price": 29990000,
-      "description": "Dell G15 5520 sở hữu cấu hình mạnh mẽ với vi xử lý i7 12700H và card RTX 3060, mang đến hiệu suất tuyệt vời cho các game thủ.",
+      "description": "Asus ROG Zephyrus G14 GA401 với thiết kế gọn nhẹ và hiệu suất cực cao, trang bị vi xử lý i7 6800HS và card RTX 3060 cho trải nghiệm chơi game tuyệt vời.",
       "image": "./imgs-projectsale/laptopsProduct/7.jpg",
       "images": [
         "./imgs-projectsale/laptopsProduct/7.jpg",
@@ -352,36 +300,10 @@
       "category": "laptop"
     },
     {
-      "id": 28,
-      "title": "Acer Nitro 5 AN515 i5 12450H/8GB/512GB...",
-      "price": 18990000,
-      "description": "Acer Nitro 5 AN515 với vi xử lý i5 12450H và card RTX 3050 là lựa chọn hoàn hảo cho các game thủ với hiệu suất ổn định.",
-      "image": "./imgs-projectsale/laptopsProduct/8.jpg",
-      "images": [
-        "./imgs-projectsale/laptopsProduct/8.jpg",
-        "./imgs-projectsale/laptopsProduct/9.jpg",
-        "./imgs-projectsale/laptopsProduct/10.jpg"
-      ],
-      "category": "laptop"
-    },
-    {
-      "id": 29,
-      "title": "HP Omen 15 i7 12700H/16GB/1TB...",
-      "price": 35990000,
-      "description": "HP Omen 15 với cấu hình mạnh mẽ, trang bị vi xử lý i7 12700H và card RTX 3070, là một trong những laptop gaming hàng đầu.",
-      "image": "./imgs-projectsale/laptopsProduct/9.jpg",
-      "images": [
-        "./imgs-projectsale/laptopsProduct/9.jpg",
-        "./imgs-projectsale/laptopsProduct/10.jpg",
-        "./imgs-projectsale/laptopsProduct/11.jpg"
-      ],
-      "category": "laptop"
-    },
-    {
-      "id": 30,
-      "title": "Lenovo ThinkPad T14 i5 1240P/16GB/512GB...",
-      "price": 19990000,
-      "description": "Lenovo ThinkPad T14 với thiết kế bền bỉ, hiệu suất cao, thích hợp cho công việc văn phòng với vi xử lý i5 1240P.",
+      "id": 24,
+      "title": "Acer Aspire 7 A715 i5 12450H/8GB/512GB...",
+      "price": 15990000,
+      "description": "Acer Aspire 7 A715 sở hữu thiết kế mạnh mẽ, hiệu năng cao với vi xử lý i5 12450H và card GTX 1650, phù hợp cho cả công việc và giải trí.",
       "image": "./imgs-projectsale/laptopsProduct/10.jpg",
       "images": [
         "./imgs-projectsale/laptopsProduct/10.jpg",
@@ -391,36 +313,10 @@
       "category": "laptop"
     },
     {
-      "id": 31,
-      "title": "Asus ZenBook 14 UX3402 i7 12700H/16GB/1TB...",
-      "price": 29990000,
-      "description": "Asus ZenBook 14 UX3402 là một chiếc laptop cao cấp với thiết kế sang trọng, hiệu năng mạnh mẽ với vi xử lý i7 12700H.",
-      "image": "./imgs-projectsale/laptopsProduct/11.jpg",
-      "images": [
-        "./imgs-projectsale/laptopsProduct/11.jpg",
-        "./imgs-projectsale/laptopsProduct/12.jpg",
-        "./imgs-projectsale/laptopsProduct/13.jpg"
-      ],
-      "category": "laptop"
-    },
-    {
-      "id": 32,
-      "title": "MSI GS66 Stealth i7 11800H/32GB/1TB...",
-      "price": 44990000,
-      "description": "MSI GS66 Stealth là laptop gaming cao cấp với vi xử lý i7 11800H và card RTX 3080, mang lại hiệu suất tuyệt vời cho game thủ chuyên nghiệp.",
-      "image": "./imgs-projectsale/laptopsProduct/12.jpg",
-      "images": [
-        "./imgs-projectsale/laptopsProduct/12.jpg",
-        "./imgs-projectsale/laptopsProduct/13.jpg",
-        "./imgs-projectsale/laptopsProduct/14.jpg"
-      ],
-      "category": "laptop"
-    },
-    {
-      "id": 33,
-      "title": "Razer Blade 15 i7 12800H/16GB/1TB...",
-      "price": 42990000,
-      "description": "Razer Blade 15 là laptop gaming mạnh mẽ với thiết kế sang trọng và vi xử lý i7 12800H, thích hợp cho game thủ yêu thích hiệu suất cao.",
+      "id": 25,
+      "title": "Lenovo Legion 5 15 i7 12700H/16GB/1TB...",
+      "price": 35990000,
+      "description": "Lenovo Legion 5 15 là một trong những laptop gaming tốt nhất với vi xử lý i7 12700H và card đồ họa RTX 3070, mang lại hiệu suất vượt trội.",
       "image": "./imgs-projectsale/laptopsProduct/13.jpg",
       "images": [
         "./imgs-projectsale/laptopsProduct/13.jpg",
@@ -430,36 +326,10 @@
       "category": "laptop"
     },
     {
-      "id": 34,
-      "title": "Gigabyte Aorus 15G i7 11800H/32GB/1TB...",
-      "price": 49990000,
-      "description": "Gigabyte Aorus 15G với hiệu suất tuyệt vời, trang bị vi xử lý i7 11800H và card RTX 3070, là lựa chọn hàng đầu cho game thủ chuyên nghiệp.",
-      "image": "./imgs-projectsale/laptopsProduct/14.jpg",
-      "images": [
-        "./imgs-projectsale/laptopsProduct/14.jpg",
-        "./imgs-projectsale/laptopsProduct/15.jpg",
-        "./imgs-projectsale/laptopsProduct/16.jpg"
-      ],
-      "category": "laptop"
-    },
-    {
-      "id": 35,
-      "title": "Acer Swift 5 i7 12700H/16GB/1TB...",
-      "price": 23990000,
-      "description": "Acer Swift 5 là chiếc laptop mỏng nhẹ, sở hữu vi xử lý i7 12700H, thiết kế thời trang và hiệu suất tốt cho công việc và giải trí.",
-      "image": "./imgs-projectsale/laptopsProduct/15.jpg",
-      "images": [
-        "./imgs-projectsale/laptopsProduct/15.jpg",
-        "./imgs-projectsale/laptopsProduct/16.jpg",
-        "./imgs-projectsale/laptopsProduct/17.jpg"
-      ],
-      "category": "laptop"
-    },
-    {
-      "id": 36,
-      "title": "Lenovo IdeaPad 3 i5 12450H/8GB/512GB...",
-      "price": 13990000,
-      "description": "Lenovo IdeaPad 3 với vi xử lý i5 12450H và thiết kế hiện đại, là sự lựa chọn hoàn hảo cho học sinh, sinh viên.",
+      "id": 26,
+      "title": "MSI GF63 Thin i5 12450H/8GB/512GB...",
+      "price": 16990000,
+      "description": "MSI GF63 Thin được thiết kế mỏng nhẹ, trang bị vi xử lý i5 12450H và card GTX 1650, là lựa chọn hoàn hảo cho game thủ di động.",
       "image": "./imgs-projectsale/laptopsProduct/16.jpg",
       "images": [
         "./imgs-projectsale/laptopsProduct/16.jpg",
@@ -469,36 +339,10 @@
       "category": "laptop"
     },
     {
-      "id": 37,
-      "title": "Asus VivoBook 15 i7 12700H/16GB/1TB...",
-      "price": 21990000,
-      "description": "Asus VivoBook 15 với vi xử lý i7 12700H và thiết kế đẹp mắt, mang lại hiệu suất tốt cho công việc và giải trí hàng ngày.",
-      "image": "./imgs-projectsale/laptopsProduct/17.jpg",
-      "images": [
-        "./imgs-projectsale/laptopsProduct/17.jpg",
-        "./imgs-projectsale/laptopsProduct/18.jpg",
-        "./imgs-projectsale/laptopsProduct/19.jpg"
-      ],
-      "category": "laptop"
-    },
-    {
-      "id": 38,
-      "title": "MSI Prestige 14 i7 12700H/16GB/1TB...",
-      "price": 28990000,
-      "description": "MSI Prestige 14 với vi xử lý i7 12700H và thiết kế sang trọng, hoàn hảo cho các chuyên gia và người dùng cần hiệu suất cao.",
-      "image": "./imgs-projectsale/laptopsProduct/18.jpg",
-      "images": [
-        "./imgs-projectsale/laptopsProduct/18.jpg",
-        "./imgs-projectsale/laptopsProduct/19.jpg",
-        "./imgs-projectsale/laptopsProduct/20.jpg"
-      ],
-      "category": "laptop"
-    },
-    {
-      "id": 39,
-      "title": "Gigabyte Aero 15 i7 13700H/16GB/1TB...",
-      "price": 36990000,
-      "description": "Gigabyte Aero 15 với vi xử lý i7 13700H và card đồ họa RTX 4060, là lựa chọn lý tưởng cho các nhà sáng tạo nội dung.",
+      "id": 27,
+      "title": "Dell G15 5520 i7 12700H/16GB/1TB...",
+      "price": 29990000,
+      "description": "Dell G15 5520 sở hữu cấu hình mạnh mẽ với vi xử lý i7 12700H và card RTX 3060, mang đến hiệu suất tuyệt vời cho các game thủ.",
       "image": "./imgs-projectsale/laptopsProduct/19.jpg",
       "images": [
         "./imgs-projectsale/laptopsProduct/19.jpg",
@@ -508,15 +352,171 @@
       "category": "laptop"
     },
     {
-      "id": 40,
-      "title": "Razer Blade Stealth 13 i7 1165G7/16GB...",
-      "price": 35990000,
-      "description": "Razer Blade Stealth 13 là laptop siêu mỏng với vi xử lý i7 1165G7, thiết kế cao cấp và hiệu suất tốt cho game thủ và người dùng sáng tạo.",
-      "image": "./imgs-projectsale/laptopsProduct/20.jpg",
+      "id": 28,
+      "title": "Acer Nitro 5 AN515 i5 12450H/8GB/512GB...",
+      "price": 18990000,
+      "description": "Acer Nitro 5 AN515 với vi xử lý i5 12450H và card RTX 3050 là lựa chọn hoàn hảo cho các game thủ với hiệu suất ổn định.",
+      "image": "./imgs-projectsale/laptopsProduct/22.jpg",
       "images": [
-        "./imgs-projectsale/laptopsProduct/20.jpg",
-        "./imgs-projectsale/laptopsProduct/21.jpg",
-        "./imgs-projectsale/laptopsProduct/22.jpg"
+        "./imgs-projectsale/laptopsProduct/22.jpg",
+        "./imgs-projectsale/laptopsProduct/23.jpg",
+        "./imgs-projectsale/laptopsProduct/24.jpg"
+      ],
+      "category": "laptop"
+    },
+    {
+      "id": 29,
+      "title": "HP Omen 15 i7 12700H/16GB/1TB...",
+      "price": 35990000,
+      "description": "HP Omen 15 với cấu hình mạnh mẽ, trang bị vi xử lý i7 12700H và card RTX 3070, là một trong những laptop gaming hàng đầu.",
+      "image": "./imgs-projectsale/laptopsProduct/25.jpg",
+      "images": [
+        "./imgs-projectsale/laptopsProduct/25.jpg",
+        "./imgs-projectsale/laptopsProduct/26.jpg",
+        "./imgs-projectsale/laptopsProduct/27.jpg"
+      ],
+      "category": "laptop"
+    },
+    {
+      "id": 30,
+      "title": "Lenovo ThinkPad T14 i5 1240P/16GB/512GB...",
+      "price": 19990000,
+      "description": "Lenovo ThinkPad T14 với thiết kế bền bỉ, hiệu suất cao, thích hợp cho công việc văn phòng với vi xử lý i5 1240P.",
+      "image": "./imgs-projectsale/laptopsProduct/28.jpg",
+      "images": [
+        "./imgs-projectsale/laptopsProduct/28.jpg",
+        "./imgs-projectsale/laptopsProduct/29.jpg",
+        "./imgs-projectsale/laptopsProduct/30.jpg"
+      ],
+      "category": "laptop"
+    },
+    {
+      "id": 31,
+      "title": "Asus ZenBook 14 UX3402 i7 12700H/16GB/1TB...",
+      "price": 29990000,
+      "description": "Asus ZenBook 14 UX3402 là một chiếc laptop cao cấp với thiết kế sang trọng, hiệu năng mạnh mẽ với vi xử lý i7 12700H.",
+      "image": "./imgs-projectsale/laptopsProduct/31.jpg",
+      "images": [
+        "./imgs-projectsale/laptopsProduct/31.jpg",
+        "./imgs-projectsale/laptopsProduct/32.jpg",
+        "./imgs-projectsale/laptopsProduct/33.jpg"
+      ],
+      "category": "laptop"
+    },
+    {
+      "id": 32,
+      "title": "MSI GS66 Stealth i7 11800H/32GB/1TB...",
+      "price": 44990000,
+      "description": "MSI GS66 Stealth là laptop gaming cao cấp với vi xử lý i7 11800H và card RTX 3080, mang lại hiệu suất tuyệt vời cho game thủ chuyên nghiệp.",
+      "image": "./imgs-projectsale/laptopsProduct/34.jpg",
+      "images": [
+        "./imgs-projectsale/laptopsProduct/34.jpg",
+        "./imgs-projectsale/laptopsProduct/35.jpg",
+        "./imgs-projectsale/laptopsProduct/36.jpg"
+      ],
+      "category": "laptop"
+    },
+    {
+      "id": 33,
+      "title": "Razer Blade 15 i7 12800H/16GB/1TB...",
+      "price": 42990000,
+      "description": "Razer Blade 15 là laptop gaming mạnh mẽ với thiết kế sang trọng và vi xử lý i7 12800H, thích hợp cho game thủ yêu thích hiệu suất cao.",
+      "image": "./imgs-projectsale/laptopsProduct/37.jpg",
+      "images": [
+        "./imgs-projectsale/laptopsProduct/37.jpg",
+        "./imgs-projectsale/laptopsProduct/38.jpg",
+        "./imgs-projectsale/laptopsProduct/39.jpg"
+      ],
+      "category": "laptop"
+    },
+    {
+      "id": 34,
+      "title": "Gigabyte Aero 15 i7 12700H/16GB/1TB...",
+      "price": 39990000,
+      "description": "Gigabyte Aero 15 với thiết kế mỏng nhẹ, mạnh mẽ nhờ vi xử lý i7 12700H và card RTX 3060, phù hợp cho cả công việc lẫn giải trí.",
+      "image": "./imgs-projectsale/laptopsProduct/40.jpg",
+      "images": [
+        "./imgs-projectsale/laptopsProduct/40.jpg",
+        "./imgs-projectsale/laptopsProduct/41.jpg",
+        "./imgs-projectsale/laptopsProduct/42.jpg"
+      ],
+      "category": "laptop"
+    },
+    {
+      "id": 35,
+      "title": "LG Gram 16 i5 1240P/16GB/512GB...",
+      "price": 27990000,
+      "description": "LG Gram 16 là chiếc laptop siêu nhẹ, thích hợp cho di chuyển nhiều, với vi xử lý i5 1240P mang lại hiệu năng tốt.",
+      "image": "./imgs-projectsale/laptopsProduct/43.jpg",
+      "images": [
+        "./imgs-projectsale/laptopsProduct/43.jpg",
+        "./imgs-projectsale/laptopsProduct/44.jpg",
+        "./imgs-projectsale/laptopsProduct/45.jpg"
+      ],
+      "category": "laptop"
+    },
+    {
+      "id": 36,
+      "title": "Microsoft Surface Laptop 4 i5 1135G7/8GB/512GB...",
+      "price": 23990000,
+      "description": "Microsoft Surface Laptop 4 với thiết kế tinh tế, vi xử lý i5 1135G7 và màn hình cảm ứng, là lựa chọn hoàn hảo cho công việc và học tập.",
+      "image": "./imgs-projectsale/laptopsProduct/46.jpg",
+      "images": [
+        "./imgs-projectsale/laptopsProduct/46.jpg",
+        "./imgs-projectsale/laptopsProduct/47.jpg",
+        "./imgs-projectsale/laptopsProduct/48.jpg"
+      ],
+      "category": "laptop"
+    },
+    {
+      "id": 37,
+      "title": "Apple MacBook Pro 14 M1 Pro/16GB/512GB...",
+      "price": 48990000,
+      "description": "Apple MacBook Pro 14 với chip M1 Pro mạnh mẽ, màn hình Retina sắc nét, là công cụ lý tưởng cho các nhà sáng tạo nội dung.",
+      "image": "./imgs-projectsale/laptopsProduct/49.jpg",
+      "images": [
+        "./imgs-projectsale/laptopsProduct/49.jpg",
+        "./imgs-projectsale/laptopsProduct/50.jpg",
+        "./imgs-projectsale/laptopsProduct/51.jpg"
+      ],
+      "category": "laptop"
+    },
+    {
+      "id": 38,
+      "title": "Dell Inspiron 14 5410 i5 1135G7/8GB/256GB...",
+      "price": 16990000,
+      "description": "Dell Inspiron 14 5410 là laptop phổ thông với thiết kế nhỏ gọn và vi xử lý i5 1135G7, phù hợp cho nhu cầu học tập và làm việc văn phòng.",
+      "image": "./imgs-projectsale/laptopsProduct/52.jpg",
+      "images": [
+        "./imgs-projectsale/laptopsProduct/52.jpg",
+        "./imgs-projectsale/laptopsProduct/53.jpg",
+        "./imgs-projectsale/laptopsProduct/54.jpg"
+      ],
+      "category": "laptop"
+    },
+    {
+      "id": 39,
+      "title": "HP Envy x360 13 i5 1135G7/8GB/512GB...",
+      "price": 20990000,
+      "description": "HP Envy x360 13 với thiết kế 2-trong-1, vi xử lý i5 1135G7 và màn hình cảm ứng, là chiếc laptop lý tưởng cho người dùng sáng tạo.",
+      "image": "./imgs-projectsale/laptopsProduct/55.jpg",
+      "images": [
+        "./imgs-projectsale/laptopsProduct/55.jpg",
+        "./imgs-projectsale/laptopsProduct/56.jpg",
+        "./imgs-projectsale/laptopsProduct/57.jpg"
+      ],
+      "category": "laptop"
+    },
+    {
+      "id": 40,
+      "title": "Asus VivoBook 15 i3 1115G4/8GB/256GB...",
+      "price": 10990000,
+      "description": "Asus VivoBook 15 là laptop giá rẻ với hiệu năng ổn định nhờ vi xử lý i3 1115G4, phù hợp cho nhu cầu học tập và làm việc cơ bản.",
+      "image": "./imgs-projectsale/laptopsProduct/58.jpg",
+      "images": [
+        "./imgs-projectsale/laptopsProduct/58.jpg",
+        "./imgs-projectsale/laptopsProduct/59.jpg",
+        "./imgs-projectsale/laptopsProduct/60.jpg"
       ],
       "category": "laptop"
     },
@@ -751,6 +751,31 @@
         "./imgs-projectsale/tabletsProduct/52.jpg",
         "./imgs-projectsale/tabletsProduct/53.jpg",
         "./imgs-projectsale/tabletsProduct/54.jpg"
+      ],
+      "category": "tablet"
+    },{
+      "id": 59,
+      "title": "Samsung Galaxy Tab A7 Lite 3GB/32GB",
+      "price": 4090000,
+      "description": "Samsung Galaxy Tab A7 Lite là tablet giá rẻ với thiết kế nhỏ gọn, hiệu năng ổn định, thích hợp cho nhu cầu giải trí và học tập cơ bản.",
+      "image": "./imgs-projectsale/tabletsProduct/55.jpg",
+      "images": [
+        "./imgs-projectsale/tabletsProduct/55.jpg",
+        "./imgs-projectsale/tabletsProduct/56.jpg",
+        "./imgs-projectsale/tabletsProduct/57.jpg"
+      ],
+      "category": "tablet"
+    },
+    {
+      "id": 60,
+      "title": "Lenovo Tab M10 4GB/64GB",
+      "price": 5290000,
+      "description": "Lenovo Tab M10 là tablet tầm trung với màn hình lớn, hiệu năng tốt, phục vụ tốt nhu cầu học tập và giải trí của người dùng.",
+      "image": "./imgs-projectsale/tabletsProduct/58.jpg",
+      "images": [
+        "./imgs-projectsale/tabletsProduct/58.jpg",
+        "./imgs-projectsale/tabletsProduct/59.jpg",
+        "./imgs-projectsale/tabletsProduct/60.jpg"
       ],
       "category": "tablet"
     }

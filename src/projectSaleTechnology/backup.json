@@ -1,0 +1,783 @@
+{
+    "saleTechnology": [
+      {
+        "id": 1,
+        "title": "IPhone 15",
+        "price": 22990000,
+        "description": "Step into style with these eye-catching sneakers featuring a striking combination of orange and blue hues. Designed for both comfort and fashion, these shoes come with flexible soles and cushioned insoles, perfect for active individuals who don't compromise on style. The reflective silver accents add a touch of modernity, making them a standout accessory for your workout or casual wear.",
+        "image": "./imgs-projectsale/phonesProduct/ip15.jpg",
+        "images": [
+          "./imgs-projectsale/phonesProduct/ip15.jpg",
+          "./imgs-projectsale/phonesProduct/iphone-15-plus-1-1-750x500.jpg",
+          "./imgs-projectsale/phonesProduct/iphone-15-plus-black-2-638629457762670263-750x500.jpg"
+        ],
+        "category": "phone"
+      },
+      {
+        "id": 2,
+        "title": "Xiaomi Redmi Note 13 Gold",
+        "price": 4500000,
+        "description": "Step into style with these eye-catching sneakers featuring a striking combination of orange and blue hues. Designed for both comfort and fashion, these shoes come with flexible soles and cushioned insoles, perfect for active individuals who don't compromise on style. The reflective silver accents add a touch of modernity, making them a standout accessory for your workout or casual wear.",
+        "image": "./imgs-projectsale/phonesProduct/xiaomi-redmi-note-13-gold-thumb-600x600.jpg",
+        "images": [
+          "./imgs-projectsale/phonesProduct/xiaomi-redmi-note-13-gold-thumb-600x600.jpg",
+          "./imgs-projectsale/phonesProduct/xiaomi-redmi-note-13-vang-4-750x500.jpg",
+          "./imgs-projectsale/phonesProduct/xiaomi-redmi-note-13-vang-5-750x500.jpg"
+        ],
+        "category": "phone"
+      },
+      {
+        "id": 3,
+        "title": "Realme C65",
+        "price": 4000000,
+        "description": "Step into style with these eye-catching sneakers featuring a striking combination of orange and blue hues. Designed for both comfort and fashion, these shoes come with flexible soles and cushioned insoles, perfect for active individuals who don't compromise on style. The reflective silver accents add a touch of modernity, making them a standout accessory for your workout or casual wear.",
+        "image": "./imgs-projectsale/phonesProduct/realme-c65-thumb-1-600x600.jpg",
+        "images": [
+          "./imgs-projectsale/phonesProduct/realme-c65-thumb-1-600x600.jpg",
+          "./imgs-projectsale/phonesProduct/realme-c65-den-4-750x500.jpg",
+          "./imgs-projectsale/phonesProduct/realme-c65-den-5-750x500.jpg"
+        ],
+        "category": "phone"
+      },
+      {
+        "id": 4,
+        "title": "Samsung Galaxy A55 5G Blue",
+        "price": 8000000,
+        "description": "Step into style with these eye-catching sneakers featuring a striking combination of orange and blue hues. Designed for both comfort and fashion, these shoes come with flexible soles and cushioned insoles, perfect for active individuals who don't compromise on style. The reflective silver accents add a touch of modernity, making them a standout accessory for your workout or casual wear.",
+        "image": "./imgs-projectsale/phonesProduct/samsung-galaxy-a55-5g-xanh-thumb-1-600x600.jpg",
+        "images": [
+          "./imgs-projectsale/phonesProduct/samsung-galaxy-a55-5g-xanh-thumb-1-600x600.jpg",
+          "./imgs-projectsale/phonesProduct/samsung-galaxy-a55-5g-xanh-4-1-750x500.jpg",
+          "./imgs-projectsale/phonesProduct/samsung-galaxy-a55-5g-xanh-5-1-750x500.jpg"
+        ],
+        "category": "phone"
+      },
+      {
+        "id": 5,
+        "title": "Samsung Galaxy Z Fold6 Grey",
+        "price": 45000000,
+        "description": "Step into style with these eye-catching sneakers featuring a striking combination of orange and blue hues. Designed for both comfort and fashion, these shoes come with flexible soles and cushioned insoles, perfect for active individuals who don't compromise on style. The reflective silver accents add a touch of modernity, making them a standout accessory for your workout or casual wear.",
+        "image": "./imgs-projectsale/phonesProduct/samsung-galaxy-z-fold6-xam-thumbn-600x600.jpg",
+        "images": [
+          "./imgs-projectsale/phonesProduct/samsung-galaxy-z-fold6-xam-thumbn-600x600.jpg",
+          "./imgs-projectsale/phonesProduct/samsung-galaxy-z-fold6-xam-5-1-750x500.jpg",
+          "./imgs-projectsale/phonesProduct/samsung-galaxy-z-fold6-xam-6-750x500.jpg"
+        ],
+        "category": "phone"
+      },
+      {
+        "id": 6,
+        "title": "Samsung Galaxy Z Flip6 Blue",
+        "price": 25000000,
+        "description": "Step into style with these eye-catching sneakers featuring a striking combination of orange and blue hues. Designed for both comfort and fashion, these shoes come with flexible soles and cushioned insoles, perfect for active individuals who don't compromise on style. The reflective silver accents add a touch of modernity, making them a standout accessory for your workout or casual wear.",
+        "image": "./imgs-projectsale/phonesProduct/samsung-galaxy-z-flip6-xanh-thumbn-600x600.jpg",
+        "images": [
+          "./imgs-projectsale/phonesProduct/samsung-galaxy-z-flip6-xanh-thumbn-600x600.jpg",
+          "./imgs-projectsale/phonesProduct/samsung-galaxy-z-flip6-blue-5-1-750x500.jpg",
+          "./imgs-projectsale/phonesProduct/samsung-galaxy-z-flip6-blue-6-1-750x500.jpg"
+        ],
+        "category": "phone"
+      },
+      {
+        "id": 7,
+        "title": "Vivo Y28 Yellow",
+        "price": 4000000,
+        "description": "Step into style with these eye-catching sneakers featuring a striking combination of orange and blue hues. Designed for both comfort and fashion, these shoes come with flexible soles and cushioned insoles, perfect for active individuals who don't compromise on style. The reflective silver accents add a touch of modernity, making them a standout accessory for your workout or casual wear.",
+        "image": "./imgs-projectsale/phonesProduct/vivo-y28-vang-thumb-600x600.jpg",
+        "images": [
+          "./imgs-projectsale/phonesProduct/vivo-y28-vang-thumb-600x600.jpg",
+          "./imgs-projectsale/phonesProduct/vivo-y28-cam-4-750x500.jpg",
+          "./imgs-projectsale/phonesProduct/vivo-y28-cam-5-750x500.jpg"
+        ],
+        "category": "phone"
+      },
+      {
+        "id": 8,
+        "title": "Samsung Galaxy M15 5G Blue",
+        "price": 6000000,
+        "description": "Step into style with these eye-catching sneakers featuring a striking combination of orange and blue hues. Designed for both comfort and fashion, these shoes come with flexible soles and cushioned insoles, perfect for active individuals who don't compromise on style. The reflective silver accents add a touch of modernity, making them a standout accessory for your workout or casual wear.",
+        "image": "./imgs-projectsale/phonesProduct/samsung-galaxy-m15-5g-blue-thumb-1-600x600.jpg",
+        "images": [
+          "./imgs-projectsale/phonesProduct/samsung-galaxy-m15-5g-blue-thumb-1-600x600.jpg",
+          "./imgs-projectsale/phonesProduct/samsung-galaxy-m15-4-750x500.jpg",
+          "./imgs-projectsale/phonesProduct/samsung-galaxy-m15-5-750x500.jpg"
+        ],
+        "category": "phone"
+      },
+      {
+        "id": 9,
+        "title": "Xiaomi Redmi Note 13 Green",
+        "price": 4500000,
+        "description": "Step into style with these eye-catching sneakers featuring a striking combination of orange and blue hues. Designed for both comfort and fashion, these shoes come with flexible soles and cushioned insoles, perfect for active individuals who don't compromise on style. The reflective silver accents add a touch of modernity, making them a standout accessory for your workout or casual wear.",
+        "image": "./imgs-projectsale/phonesProduct/xiaomi-redmi-note-13-green-thumb-600x600.jpg",
+        "images": [
+          "./imgs-projectsale/phonesProduct/xiaomi-redmi-note-13-green-thumb-600x600.jpg",
+          "./imgs-projectsale/phonesProduct/redmi-note-13-pro-xanh-la-4-750x500.jpg",
+          "./imgs-projectsale/phonesProduct/redmi-note-13-pro-xanh-la-5-750x500.jpg"
+        ],
+        "category": "phone"
+      },
+      {
+        "id": 10,
+        "title": "Oppo A3X Red",
+        "price": 3000000,
+        "description": "Step into style with these eye-catching sneakers featuring a striking combination of orange and blue hues. Designed for both comfort and fashion, these shoes come with flexible soles and cushioned insoles, perfect for active individuals who don't compromise on style. The reflective silver accents add a touch of modernity, making them a standout accessory for your workout or casual wear.",
+        "image": "./imgs-projectsale/phonesProduct/oppo-a3x-red-thumb-600x600.jpg",
+        "images": [
+          "./imgs-projectsale/phonesProduct/oppo-a3x-red-thumb-600x600.jpg",
+          "./imgs-projectsale/phonesProduct/oppo-a3x-do-4-638611485962518671-750x500.jpg",
+          "./imgs-projectsale/phonesProduct/oppo-a3x-do-5-638611485969512139-750x500.jpg"
+        ],
+        "category": "phone"
+      },
+      {
+        "id": 11,
+        "title": "Redmi 13 Blue",
+        "price": 4500000,
+        "description": "Step into style with these eye-catching sneakers featuring a striking combination of orange and blue hues. Designed for both comfort and fashion, these shoes come with flexible soles and cushioned insoles, perfect for active individuals who don't compromise on style. The reflective silver accents add a touch of modernity, making them a standout accessory for your workout or casual wear.",
+        "image": "./imgs-projectsale/phonesProduct/redmi-13-blue-thumb-600x600.jpg",
+        "images": [
+          "./imgs-projectsale/phonesProduct/redmi-13-blue-thumb-600x600.jpg",
+          "./imgs-projectsale/phonesProduct/redmi-13-xanh-4-750x500.jpg",
+          "./imgs-projectsale/phonesProduct/redmi-13-xanh-5-750x500.jpg"
+        ],
+        "category": "phone"
+      },
+      {
+        "id": 12,
+        "title": "Realme Note 50 Blue",
+        "price": 6000000,
+        "description": "Step into style with these eye-catching sneakers featuring a striking combination of orange and blue hues. Designed for both comfort and fashion, these shoes come with flexible soles and cushioned insoles, perfect for active individuals who don't compromise on style. The reflective silver accents add a touch of modernity, making them a standout accessory for your workout or casual wear.",
+        "image": "./imgs-projectsale/phonesProduct/realme-note-50-blue-thumb-600x600.jpg",
+        "images": [
+          "./imgs-projectsale/phonesProduct/realme-note-50-blue-thumb-600x600.jpg",
+          "./imgs-projectsale/phonesProduct/realme-note-50-xanh-4-750x500.jpg",
+          "./imgs-projectsale/phonesProduct/realme-note-50-xanh-5-750x500.jpg"
+        ],
+        "category": "phone"
+      },
+      {
+        "id": 13,
+        "title": "Samsung Galaxy M54 Blue",
+        "price": 9000000,
+        "description": "Step into style with these eye-catching sneakers featuring a striking combination of orange and blue hues. Designed for both comfort and fashion, these shoes come with flexible soles and cushioned insoles, perfect for active individuals who don't compromise on style. The reflective silver accents add a touch of modernity, making them a standout accessory for your workout or casual wear.",
+        "image": "./imgs-projectsale/phonesProduct/samsung-galaxy-m54-xanh-thumb-600x600.jpg",
+        "images": [
+          "./imgs-projectsale/phonesProduct/samsung-galaxy-m54-xanh-thumb-600x600.jpg",
+          "./imgs-projectsale/phonesProduct/samsung-galaxy-m54-den-4-750x500.jpg",
+          "./imgs-projectsale/phonesProduct/samsung-galaxy-m54-den-5-750x500.jpg"
+        ],
+        "category": "phone"
+      },
+      {
+        "id": 14,
+        "title": "Samsung Galaxy S23 FE Mint",
+        "price": 13000000,
+        "description": "Step into style with these eye-catching sneakers featuring a striking combination of orange and blue hues. Designed for both comfort and fashion, these shoes come with flexible soles and cushioned insoles, perfect for active individuals who don't compromise on style. The reflective silver accents add a touch of modernity, making them a standout accessory for your workout or casual wear.",
+        "image": "./imgs-projectsale/phonesProduct/samsung-galaxy-s23-fe-mint-thumbnew-600x600.jpg",
+        "images": [
+          "./imgs-projectsale/phonesProduct/samsung-galaxy-s23-fe-mint-thumbnew-600x600.jpg",
+          "./imgs-projectsale/phonesProduct/samsung-galaxy-s23-fe-xanh-4-750x500.jpg",
+          "./imgs-projectsale/phonesProduct/samsung-galaxy-s23-fe-xanh-5-750x500.jpg"
+        ],
+        "category": "phone"
+      },
+      {
+        "id": 15,
+        "title": "Oppo Reno11 F Purple",
+        "price": 11000000,
+        "description": "Step into style with these eye-catching sneakers featuring a striking combination of orange and blue hues. Designed for both comfort and fashion, these shoes come with flexible soles and cushioned insoles, perfect for active individuals who don't compromise on style. The reflective silver accents add a touch of modernity, making them a standout accessory for your workout or casual wear.",
+        "image": "./imgs-projectsale/phonesProduct/oppo-reno11-f-purple-thumb-600x600.jpg",
+        "images": [
+          "./imgs-projectsale/phonesProduct/oppo-reno11-f-purple-thumb-600x600.jpg",
+          "./imgs-projectsale/phonesProduct/oppo-reno-11f-tim-4-750x500.jpg",
+          "./imgs-projectsale/phonesProduct/oppo-reno-11f-tim-5-750x500.jpg"
+        ],
+        "category": "phone"
+      },
+      {
+        "id": 16,
+        "title": "Samsung Galaxy A35 5G Blue",
+        "price": 8000000,
+        "description": "Step into style with these eye-catching sneakers featuring a striking combination of orange and blue hues. Designed for both comfort and fashion, these shoes come with flexible soles and cushioned insoles, perfect for active individuals who don't compromise on style. The reflective silver accents add a touch of modernity, making them a standout accessory for your workout or casual wear.",
+        "image": "./imgs-projectsale/phonesProduct/samsung-galaxy-a35-5g-xanh-thumb-1-600x600.jpg",
+        "images": [
+          "./imgs-projectsale/phonesProduct/samsung-galaxy-a35-5g-xanh-thumb-1-600x600.jpg",
+          "./imgs-projectsale/phonesProduct/samsung-galaxy-a35-xanh-nhat-4-750x500.jpg",
+          "./imgs-projectsale/phonesProduct/samsung-galaxy-a35-xanh-nhat-5-750x500.jpg"
+        ],
+        "category": "phone"
+      },
+      {
+        "id": 17,
+        "title": "Oppo A3 Purple",
+        "price": 3500000,
+        "description": "Step into style with these eye-catching sneakers featuring a striking combination of orange and blue hues. Designed for both comfort and fashion, these shoes come with flexible soles and cushioned insoles, perfect for active individuals who don't compromise on style. The reflective silver accents add a touch of modernity, making them a standout accessory for your workout or casual wear.",
+        "image": "./imgs-projectsale/phonesProduct/oppo-a3-purple-thumb-1-600x600.jpg",
+        "images": [
+          "./imgs-projectsale/phonesProduct/oppo-a3-purple-thumb-1-600x600.jpg",
+          "./imgs-projectsale/phonesProduct/oppo-a3-purple-4-638611475277048945-750x500.jpg",
+          "./imgs-projectsale/phonesProduct/oppo-a3-purple-5-638611475285676498-750x500.jpg"
+        ],
+        "category": "phone"
+      },
+      {
+        "id": 18,
+        "title": "Oppo A18 Blue",
+        "price": 3500000,
+        "description": "Step into style with these eye-catching sneakers featuring a striking combination of orange and blue hues. Designed for both comfort and fashion, these shoes come with flexible soles and cushioned insoles, perfect for active individuals who don't compromise on style. The reflective silver accents add a touch of modernity, making them a standout accessory for your workout or casual wear.",
+        "image": "./imgs-projectsale/phonesProduct/oppo-a18-xanh-thumb-1-2-3-600x600.jpg",
+        "images": [
+          "./imgs-projectsale/phonesProduct/oppo-a18-xanh-thumb-1-2-3-600x600.jpg",
+          "./imgs-projectsale/phonesProduct/oppo-a18-xanh-64gb-4-750x500.jpg",
+          "./imgs-projectsale/phonesProduct/oppo-a18-xanh-64gb-5-750x500.jpg"
+        ],
+        "category": "phone"
+      },
+      {
+        "id": 19,
+        "title": "iPhone 15 Pro Max Gold",
+        "price": 33990000,
+        "description": "Step into style with these eye-catching sneakers featuring a striking combination of orange and blue hues. Designed for both comfort and fashion, these shoes come with flexible soles and cushioned insoles, perfect for active individuals who don't compromise on style. The reflective silver accents add a touch of modernity, making them a standout accessory for your workout or casual wear.",
+        "image": "./imgs-projectsale/phonesProduct/iphone-15-pro-max-gold-thumbnew-600x600.jpg",
+        "images": [
+          "./imgs-projectsale/phonesProduct/iphone-15-pro-max-gold-thumbnew-600x600.jpg",
+          "./imgs-projectsale/phonesProduct/iphone-15-pro-max-tu-nhien-1-1-750x500.jpg",
+          "./imgs-projectsale/phonesProduct/iphone-15-pro-max-titan-tu-nhien-2-638629415265295729-750x500.jpg"
+        ],
+        "category": "phone"
+      },
+      {
+        "id": 20,
+        "title": "Samsung Galaxy S24 Ultra Grey",
+        "price": 30000000,
+        "description": "Step into style with these eye-catching sneakers featuring a striking combination of orange and blue hues. Designed for both comfort and fashion, these shoes come with flexible soles and cushioned",
+        "image": "./imgs-projectsale/phonesProduct/samsung-galaxy-s24-ultra-grey-thumbnew-600x600.jpg",
+        "images": [
+          "./imgs-projectsale/phonesProduct/samsung-galaxy-s24-ultra-grey-thumbnew-600x600.jpg",
+          "./imgs-projectsale/phonesProduct/iphone-15-pro-max-tu-nhien-1-1-750x500.jpg",
+          "./imgs-projectsale/phonesProduct/iphone-15-pro-max-titan-tu-nhien-2-638629415265295729-750x500.jpg"
+        ],
+        "category": "phone"
+      },
+      {
+        "id": 21,
+        "title": "Dell XPS 15 i7 13700H/16GB/1TB...",
+        "price": 35990000,
+        "description": "Laptop Dell XPS 15 9530 với thiết kế mỏng nhẹ, hiệu năng mạnh mẽ nhờ vào vi xử lý i7 13700H và card đồ họa RTX 4050. Hoàn hảo cho cả công việc và giải trí.",
+        "image": "./imgs-projectsale/laptopsProduct/1.jpg",
+        "images": [
+          "./imgs-projectsale/laptopsProduct/1.jpg",
+          "./imgs-projectsale/laptopsProduct/2.jpg",
+          "./imgs-projectsale/laptopsProduct/3.jpg"
+        ],
+        "category": "laptop"
+      },
+      {
+        "id": 22,
+        "title": "HP Pavilion Gaming i5 12450H/8GB/512GB...",
+        "price": 18990000,
+        "description": "HP Pavilion Gaming 15 là sự lựa chọn tuyệt vời cho game thủ với vi xử lý i5 12450H và card GTX 1650, mang đến trải nghiệm chơi game mượt mà.",
+        "image": "./imgs-projectsale/laptopsProduct/4.jpg",
+        "images": [
+          "./imgs-projectsale/laptopsProduct/4.jpg",
+          "./imgs-projectsale/laptopsProduct/5.jpg",
+          "./imgs-projectsale/laptopsProduct/6.jpg"
+        ],
+        "category": "laptop"
+      },
+      {
+        "id": 23,
+        "title": "Asus ROG Zephyrus G14 i7 6800HS/16GB/1TB...",
+        "price": 29990000,
+        "description": "Asus ROG Zephyrus G14 GA401 với thiết kế gọn nhẹ và hiệu suất cực cao, trang bị vi xử lý i7 6800HS và card RTX 3060 cho trải nghiệm chơi game tuyệt vời.",
+        "image": "./imgs-projectsale/laptopsProduct/7.jpg",
+        "images": [
+          "./imgs-projectsale/laptopsProduct/7.jpg",
+          "./imgs-projectsale/laptopsProduct/8.jpg",
+          "./imgs-projectsale/laptopsProduct/9.jpg"
+        ],
+        "category": "laptop"
+      },
+      {
+        "id": 24,
+        "title": "Acer Aspire 7 A715 i5 12450H/8GB/512GB...",
+        "price": 15990000,
+        "description": "Acer Aspire 7 A715 sở hữu thiết kế mạnh mẽ, hiệu năng cao với vi xử lý i5 12450H và card GTX 1650, phù hợp cho cả công việc và giải trí.",
+        "image": "./imgs-projectsale/laptopsProduct/10.jpg",
+        "images": [
+          "./imgs-projectsale/laptopsProduct/10.jpg",
+          "./imgs-projectsale/laptopsProduct/11.jpg",
+          "./imgs-projectsale/laptopsProduct/12.jpg"
+        ],
+        "category": "laptop"
+      },
+      {
+        "id": 25,
+        "title": "Lenovo Legion 5 15 i7 12700H/16GB/1TB...",
+        "price": 35990000,
+        "description": "Lenovo Legion 5 15 là một trong những laptop gaming tốt nhất với vi xử lý i7 12700H và card đồ họa RTX 3070, mang lại hiệu suất vượt trội.",
+        "image": "./imgs-projectsale/laptopsProduct/13.jpg",
+        "images": [
+          "./imgs-projectsale/laptopsProduct/13.jpg",
+          "./imgs-projectsale/laptopsProduct/14.jpg",
+          "./imgs-projectsale/laptopsProduct/15.jpg"
+        ],
+        "category": "laptop"
+      },
+      {
+        "id": 26,
+        "title": "MSI GF63 Thin i5 12450H/8GB/512GB...",
+        "price": 16990000,
+        "description": "MSI GF63 Thin được thiết kế mỏng nhẹ, trang bị vi xử lý i5 12450H và card GTX 1650, là lựa chọn hoàn hảo cho game thủ di động.",
+        "image": "./imgs-projectsale/laptopsProduct/16.jpg",
+        "images": [
+          "./imgs-projectsale/laptopsProduct/16.jpg",
+          "./imgs-projectsale/laptopsProduct/17.jpg",
+          "./imgs-projectsale/laptopsProduct/18.jpg"
+        ],
+        "category": "laptop"
+      },
+      {
+        "id": 27,
+        "title": "Dell G15 5520 i7 12700H/16GB/1TB...",
+        "price": 29990000,
+        "description": "Dell G15 5520 sở hữu cấu hình mạnh mẽ với vi xử lý i7 12700H và card RTX 3060, mang đến hiệu suất tuyệt vời cho các game thủ.",
+        "image": "./imgs-projectsale/laptopsProduct/19.jpg",
+        "images": [
+          "./imgs-projectsale/laptopsProduct/19.jpg",
+          "./imgs-projectsale/laptopsProduct/20.jpg",
+          "./imgs-projectsale/laptopsProduct/21.jpg"
+        ],
+        "category": "laptop"
+      },
+      {
+        "id": 28,
+        "title": "Acer Nitro 5 AN515 i5 12450H/8GB/512GB...",
+        "price": 18990000,
+        "description": "Acer Nitro 5 AN515 với vi xử lý i5 12450H và card RTX 3050 là lựa chọn hoàn hảo cho các game thủ với hiệu suất ổn định.",
+        "image": "./imgs-projectsale/laptopsProduct/22.jpg",
+        "images": [
+          "./imgs-projectsale/laptopsProduct/22.jpg",
+          "./imgs-projectsale/laptopsProduct/23.jpg",
+          "./imgs-projectsale/laptopsProduct/24.jpg"
+        ],
+        "category": "laptop"
+      },
+      {
+        "id": 29,
+        "title": "HP Omen 15 i7 12700H/16GB/1TB...",
+        "price": 35990000,
+        "description": "HP Omen 15 với cấu hình mạnh mẽ, trang bị vi xử lý i7 12700H và card RTX 3070, là một trong những laptop gaming hàng đầu.",
+        "image": "./imgs-projectsale/laptopsProduct/25.jpg",
+        "images": [
+          "./imgs-projectsale/laptopsProduct/25.jpg",
+          "./imgs-projectsale/laptopsProduct/26.jpg",
+          "./imgs-projectsale/laptopsProduct/27.jpg"
+        ],
+        "category": "laptop"
+      },
+      {
+        "id": 30,
+        "title": "Lenovo ThinkPad T14 i5 1240P/16GB/512GB...",
+        "price": 19990000,
+        "description": "Lenovo ThinkPad T14 với thiết kế bền bỉ, hiệu suất cao, thích hợp cho công việc văn phòng với vi xử lý i5 1240P.",
+        "image": "./imgs-projectsale/laptopsProduct/28.jpg",
+        "images": [
+          "./imgs-projectsale/laptopsProduct/28.jpg",
+          "./imgs-projectsale/laptopsProduct/29.jpg",
+          "./imgs-projectsale/laptopsProduct/30.jpg"
+        ],
+        "category": "laptop"
+      },
+      {
+        "id": 31,
+        "title": "Asus ZenBook 14 UX3402 i7 12700H/16GB/1TB...",
+        "price": 29990000,
+        "description": "Asus ZenBook 14 UX3402 là một chiếc laptop cao cấp với thiết kế sang trọng, hiệu năng mạnh mẽ với vi xử lý i7 12700H.",
+        "image": "./imgs-projectsale/laptopsProduct/31.jpg",
+        "images": [
+          "./imgs-projectsale/laptopsProduct/31.jpg",
+          "./imgs-projectsale/laptopsProduct/32.jpg",
+          "./imgs-projectsale/laptopsProduct/33.jpg"
+        ],
+        "category": "laptop"
+      },
+      {
+        "id": 32,
+        "title": "MSI GS66 Stealth i7 11800H/32GB/1TB...",
+        "price": 44990000,
+        "description": "MSI GS66 Stealth là laptop gaming cao cấp với vi xử lý i7 11800H và card RTX 3080, mang lại hiệu suất tuyệt vời cho game thủ chuyên nghiệp.",
+        "image": "./imgs-projectsale/laptopsProduct/34.jpg",
+        "images": [
+          "./imgs-projectsale/laptopsProduct/34.jpg",
+          "./imgs-projectsale/laptopsProduct/35.jpg",
+          "./imgs-projectsale/laptopsProduct/36.jpg"
+        ],
+        "category": "laptop"
+      },
+      {
+        "id": 33,
+        "title": "Razer Blade 15 i7 12800H/16GB/1TB...",
+        "price": 42990000,
+        "description": "Razer Blade 15 là laptop gaming mạnh mẽ với thiết kế sang trọng và vi xử lý i7 12800H, thích hợp cho game thủ yêu thích hiệu suất cao.",
+        "image": "./imgs-projectsale/laptopsProduct/37.jpg",
+        "images": [
+          "./imgs-projectsale/laptopsProduct/37.jpg",
+          "./imgs-projectsale/laptopsProduct/38.jpg",
+          "./imgs-projectsale/laptopsProduct/39.jpg"
+        ],
+        "category": "laptop"
+      },
+      {
+        "id": 34,
+        "title": "Gigabyte Aero 15 i7 12700H/16GB/1TB...",
+        "price": 39990000,
+        "description": "Gigabyte Aero 15 với thiết kế mỏng nhẹ, mạnh mẽ nhờ vi xử lý i7 12700H và card RTX 3060, phù hợp cho cả công việc lẫn giải trí.",
+        "image": "./imgs-projectsale/laptopsProduct/40.jpg",
+        "images": [
+          "./imgs-projectsale/laptopsProduct/40.jpg",
+          "./imgs-projectsale/laptopsProduct/41.jpg",
+          "./imgs-projectsale/laptopsProduct/42.jpg"
+        ],
+        "category": "laptop"
+      },
+      {
+        "id": 35,
+        "title": "LG Gram 16 i5 1240P/16GB/512GB...",
+        "price": 27990000,
+        "description": "LG Gram 16 là chiếc laptop siêu nhẹ, thích hợp cho di chuyển nhiều, với vi xử lý i5 1240P mang lại hiệu năng tốt.",
+        "image": "./imgs-projectsale/laptopsProduct/43.jpg",
+        "images": [
+          "./imgs-projectsale/laptopsProduct/43.jpg",
+          "./imgs-projectsale/laptopsProduct/44.jpg",
+          "./imgs-projectsale/laptopsProduct/45.jpg"
+        ],
+        "category": "laptop"
+      },
+      {
+        "id": 36,
+        "title": "Microsoft Surface Laptop 4 i5 1135G7/8GB/512GB...",
+        "price": 23990000,
+        "description": "Microsoft Surface Laptop 4 với thiết kế tinh tế, vi xử lý i5 1135G7 và màn hình cảm ứng, là lựa chọn hoàn hảo cho công việc và học tập.",
+        "image": "./imgs-projectsale/laptopsProduct/46.jpg",
+        "images": [
+          "./imgs-projectsale/laptopsProduct/46.jpg",
+          "./imgs-projectsale/laptopsProduct/47.jpg",
+          "./imgs-projectsale/laptopsProduct/48.jpg"
+        ],
+        "category": "laptop"
+      },
+      {
+        "id": 37,
+        "title": "Apple MacBook Pro 14 M1 Pro/16GB/512GB...",
+        "price": 48990000,
+        "description": "Apple MacBook Pro 14 với chip M1 Pro mạnh mẽ, màn hình Retina sắc nét, là công cụ lý tưởng cho các nhà sáng tạo nội dung.",
+        "image": "./imgs-projectsale/laptopsProduct/49.jpg",
+        "images": [
+          "./imgs-projectsale/laptopsProduct/49.jpg",
+          "./imgs-projectsale/laptopsProduct/50.jpg",
+          "./imgs-projectsale/laptopsProduct/51.jpg"
+        ],
+        "category": "laptop"
+      },
+      {
+        "id": 38,
+        "title": "Dell Inspiron 14 5410 i5 1135G7/8GB/256GB...",
+        "price": 16990000,
+        "description": "Dell Inspiron 14 5410 là laptop phổ thông với thiết kế nhỏ gọn và vi xử lý i5 1135G7, phù hợp cho nhu cầu học tập và làm việc văn phòng.",
+        "image": "./imgs-projectsale/laptopsProduct/52.jpg",
+        "images": [
+          "./imgs-projectsale/laptopsProduct/52.jpg",
+          "./imgs-projectsale/laptopsProduct/53.jpg",
+          "./imgs-projectsale/laptopsProduct/54.jpg"
+        ],
+        "category": "laptop"
+      },
+      {
+        "id": 39,
+        "title": "HP Envy x360 13 i5 1135G7/8GB/512GB...",
+        "price": 20990000,
+        "description": "HP Envy x360 13 với thiết kế 2-trong-1, vi xử lý i5 1135G7 và màn hình cảm ứng, là chiếc laptop lý tưởng cho người dùng sáng tạo.",
+        "image": "./imgs-projectsale/laptopsProduct/55.jpg",
+        "images": [
+          "./imgs-projectsale/laptopsProduct/55.jpg",
+          "./imgs-projectsale/laptopsProduct/56.jpg",
+          "./imgs-projectsale/laptopsProduct/57.jpg"
+        ],
+        "category": "laptop"
+      },
+      {
+        "id": 40,
+        "title": "Asus VivoBook 15 i3 1115G4/8GB/256GB...",
+        "price": 10990000,
+        "description": "Asus VivoBook 15 là laptop giá rẻ với hiệu năng ổn định nhờ vi xử lý i3 1115G4, phù hợp cho nhu cầu học tập và làm việc cơ bản.",
+        "image": "./imgs-projectsale/laptopsProduct/58.jpg",
+        "images": [
+          "./imgs-projectsale/laptopsProduct/58.jpg",
+          "./imgs-projectsale/laptopsProduct/59.jpg",
+          "./imgs-projectsale/laptopsProduct/60.jpg"
+        ],
+        "category": "laptop"
+      },
+      {
+        "id": 41,
+        "title": "Samsung Galaxy Tab S8 WiFi 8GB/128GB",
+        "price": 15990000,
+        "description": "Samsung Galaxy Tab S8 mang lại hiệu suất vượt trội với bộ vi xử lý mạnh mẽ và màn hình sống động, lý tưởng cho công việc và giải trí.",
+        "image": "./imgs-projectsale/tabletsProduct/1.jpg",
+        "images": [
+          "./imgs-projectsale/tabletsProduct/1.jpg",
+          "./imgs-projectsale/tabletsProduct/2.jpg",
+          "./imgs-projectsale/tabletsProduct/3.jpg"
+        ],
+        "category": "tablet"
+      },
+      {
+        "id": 42,
+        "title": "Apple iPad Air 5 WiFi 8GB/64GB",
+        "price": 15990000,
+        "description": "iPad Air 5 với thiết kế mỏng nhẹ, hiệu suất nhanh và hỗ trợ Apple Pencil, là sự lựa chọn hoàn hảo cho người sáng tạo.",
+        "image": "./imgs-projectsale/tabletsProduct/4.jpg",
+        "images": [
+          "./imgs-projectsale/tabletsProduct/4.jpg",
+          "./imgs-projectsale/tabletsProduct/5.jpg",
+          "./imgs-projectsale/tabletsProduct/6.jpg"
+        ],
+        "category": "tablet"
+      },
+      {
+        "id": 43,
+        "title": "Huawei MatePad Pro 10.8 WiFi 8GB/128GB",
+        "price": 13990000,
+        "description": "Huawei MatePad Pro 10.8 sở hữu màn hình lớn, âm thanh sống động và pin lâu, là người bạn đồng hành tuyệt vời cho công việc.",
+        "image": "./imgs-projectsale/tabletsProduct/7.jpg",
+        "images": [
+          "./imgs-projectsale/tabletsProduct/7.jpg",
+          "./imgs-projectsale/tabletsProduct/8.jpg",
+          "./imgs-projectsale/tabletsProduct/9.jpg"
+        ],
+        "category": "tablet"
+      },
+      {
+        "id": 44,
+        "title": "Lenovo Tab P11 Pro WiFi 8GB/128GB",
+        "price": 13990000,
+        "description": "Lenovo Tab P11 Pro mang lại trải nghiệm giải trí tuyệt vời với màn hình OLED sắc nét và âm thanh chất lượng.",
+        "image": "./imgs-projectsale/tabletsProduct/10.jpg",
+        "images": [
+          "./imgs-projectsale/tabletsProduct/10.jpg",
+          "./imgs-projectsale/tabletsProduct/11.jpg",
+          "./imgs-projectsale/tabletsProduct/12.jpg"
+        ],
+        "category": "tablet"
+      },
+      {
+        "id": 45,
+        "title": "Microsoft Surface Pro 7 WiFi 8GB/128GB",
+        "price": 21990000,
+        "description": "Surface Pro 7 là máy tính bảng 2 trong 1 mạnh mẽ với thiết kế tinh tế, lý tưởng cho làm việc và giải trí.",
+        "image": "./imgs-projectsale/tabletsProduct/13.jpg",
+        "images": [
+          "./imgs-projectsale/tabletsProduct/13.jpg",
+          "./imgs-projectsale/tabletsProduct/14.jpg",
+          "./imgs-projectsale/tabletsProduct/15.jpg"
+        ],
+        "category": "tablet"
+      },
+      {
+        "id": 46,
+        "title": "Teclast P20HD 8GB/128GB",
+        "price": 3990000,
+        "description": "Teclast P20HD là tablet giá rẻ với hiệu suất cơ bản và màn hình lớn, phục vụ tốt cho nhu cầu học tập.",
+        "image": "./imgs-projectsale/tabletsProduct/16.jpg",
+        "images": [
+          "./imgs-projectsale/tabletsProduct/16.jpg",
+          "./imgs-projectsale/tabletsProduct/17.jpg",
+          "./imgs-projectsale/tabletsProduct/18.jpg"
+        ],
+        "category": "tablet"
+      },
+      {
+        "id": 47,
+        "title": "Xiaomi Mi Pad 5 8GB/128GB",
+        "price": 9990000,
+        "description": "Xiaomi Mi Pad 5 với hiệu suất mạnh mẽ và màn hình lớn, là lựa chọn hoàn hảo cho giải trí và làm việc.",
+        "image": "./imgs-projectsale/tabletsProduct/19.jpg",
+        "images": [
+          "./imgs-projectsale/tabletsProduct/19.jpg",
+          "./imgs-projectsale/tabletsProduct/20.jpg",
+          "./imgs-projectsale/tabletsProduct/21.jpg"
+        ],
+        "category": "tablet"
+      },
+      {
+        "id": 48,
+        "title": "Apple iPad 9 WiFi 8GB/64GB",
+        "price": 13990000,
+        "description": "iPad 9 với thiết kế truyền thống, hiệu suất cao và hỗ trợ Apple Pencil, là lựa chọn tuyệt vời cho người dùng sáng tạo.",
+        "image": "./imgs-projectsale/tabletsProduct/22.jpg",
+        "images": [
+          "./imgs-projectsale/tabletsProduct/22.jpg",
+          "./imgs-projectsale/tabletsProduct/23.jpg",
+          "./imgs-projectsale/tabletsProduct/24.jpg"
+        ],
+        "category": "tablet"
+      },
+      {
+        "id": 49,
+        "title": "Microsoft Surface Go 2 8GB/64GB",
+        "price": 10990000,
+        "description": "Microsoft Surface Go 2 là máy tính bảng với thiết kế nhỏ gọn, lý tưởng cho việc di động và làm việc từ xa.",
+        "image": "./imgs-projectsale/tabletsProduct/25.jpg",
+        "images": [
+          "./imgs-projectsale/tabletsProduct/25.jpg",
+          "./imgs-projectsale/tabletsProduct/26.jpg",
+          "./imgs-projectsale/tabletsProduct/27.jpg"
+        ],
+        "category": "tablet"
+      },
+      {
+        "id": 50,
+        "title": "Apple iPad Pro 12.9 8GB/128GB",
+        "price": 29990000,
+        "description": "iPad Pro 12.9 với hiệu suất cực mạnh và màn hình sắc nét, phù hợp cho các chuyên gia sáng tạo.",
+        "image": "./imgs-projectsale/tabletsProduct/28.jpg",
+        "images": [
+          "./imgs-projectsale/tabletsProduct/28.jpg",
+          "./imgs-projectsale/tabletsProduct/29.jpg",
+          "./imgs-projectsale/tabletsProduct/30.jpg"
+        ],
+        "category": "tablet"
+      },
+      {
+        "id": 51,
+        "title": "Google Pixel Slate 8GB/128GB",
+        "price": 17990000,
+        "description": "Google Pixel Slate là tablet 2 trong 1 với hiệu suất mạnh mẽ, thiết kế sang trọng, phục vụ tốt cho nhu cầu làm việc và giải trí.",
+        "image": "./imgs-projectsale/tabletsProduct/31.jpg",
+        "images": [
+          "./imgs-projectsale/tabletsProduct/31.jpg",
+          "./imgs-projectsale/tabletsProduct/32.jpg",
+          "./imgs-projectsale/tabletsProduct/33.jpg"
+        ],
+        "category": "tablet"
+      },
+      {
+        "id": 52,
+        "title": "Lenovo Tab M10 FHD Plus 8GB/128GB",
+        "price": 6990000,
+        "description": "Lenovo Tab M10 FHD Plus là tablet giá rẻ với màn hình lớn và hiệu suất ổn định cho giải trí hàng ngày.",
+        "image": "./imgs-projectsale/tabletsProduct/34.jpg",
+        "images": [
+          "./imgs-projectsale/tabletsProduct/34.jpg",
+          "./imgs-projectsale/tabletsProduct/35.jpg",
+          "./imgs-projectsale/tabletsProduct/36.jpg"
+        ],
+        "category": "tablet"
+      },
+      {
+        "id": 53,
+        "title": "Realme Pad 8GB/128GB",
+        "price": 6990000,
+        "description": "Realme Pad với thiết kế mỏng nhẹ và hiệu suất tốt cho nhu cầu giải trí và học tập.",
+        "image": "./imgs-projectsale/tabletsProduct/37.jpg",
+        "images": [
+          "./imgs-projectsale/tabletsProduct/37.jpg",
+          "./imgs-projectsale/tabletsProduct/38.jpg",
+          "./imgs-projectsale/tabletsProduct/39.jpg"
+        ],
+        "category": "tablet"
+      },
+      {
+        "id": 54,
+        "title": "Teclast T30 8GB/128GB",
+        "price": 4990000,
+        "description": "Teclast T30 là tablet với màn hình lớn và hiệu suất vừa đủ cho nhu cầu giải trí cơ bản.",
+        "image": "./imgs-projectsale/tabletsProduct/40.jpg",
+        "images": [
+          "./imgs-projectsale/tabletsProduct/40.jpg",
+          "./imgs-projectsale/tabletsProduct/41.jpg",
+          "./imgs-projectsale/tabletsProduct/42.jpg"
+        ],
+        "category": "tablet"
+      },
+      {
+        "id": 55,
+        "title": "Oppo Pad 8GB/256GB",
+        "price": 10990000,
+        "description": "Oppo Pad với hiệu suất mạnh mẽ và thiết kế hiện đại, phục vụ tốt cho nhu cầu giải trí và công việc.",
+        "image": "./imgs-projectsale/tabletsProduct/43.jpg",
+        "images": [
+          "./imgs-projectsale/tabletsProduct/43.jpg",
+          "./imgs-projectsale/tabletsProduct/44.jpg",
+          "./imgs-projectsale/tabletsProduct/45.jpg"
+        ],
+        "category": "tablet"
+      },
+      {
+        "id": 56,
+        "title": "Honor Pad 8 8GB/128GB",
+        "price": 5990000,
+        "description": "Honor Pad 8 với hiệu suất tốt và thiết kế đẹp mắt, phù hợp cho việc giải trí hàng ngày.",
+        "image": "./imgs-projectsale/tabletsProduct/46.jpg",
+        "images": [
+          "./imgs-projectsale/tabletsProduct/46.jpg",
+          "./imgs-projectsale/tabletsProduct/47.jpg",
+          "./imgs-projectsale/tabletsProduct/48.jpg"
+        ],
+        "category": "tablet"
+      },
+      {
+        "id": 57,
+        "title": "Asus ZenPad 3S 8GB/64GB",
+        "price": 10990000,
+        "description": "Asus ZenPad 3S mang lại trải nghiệm giải trí tuyệt vời với màn hình chất lượng và âm thanh sống động.",
+        "image": "./imgs-projectsale/tabletsProduct/49.jpg",
+        "images": [
+          "./imgs-projectsale/tabletsProduct/49.jpg",
+          "./imgs-projectsale/tabletsProduct/50.jpg",
+          "./imgs-projectsale/tabletsProduct/51.jpg"
+        ],
+        "category": "tablet"
+      },
+      {
+        "id": 58,
+        "title": "Acer Iconia Tab 8 8GB/16GB",
+        "price": 2990000,
+        "description": "Acer Iconia Tab 8 là tablet giá rẻ với hiệu suất ổn định, phục vụ tốt cho nhu cầu giải trí cơ bản.",
+        "image": "./imgs-projectsale/tabletsProduct/52.jpg",
+        "images": [
+          "./imgs-projectsale/tabletsProduct/52.jpg",
+          "./imgs-projectsale/tabletsProduct/53.jpg",
+          "./imgs-projectsale/tabletsProduct/54.jpg"
+        ],
+        "category": "tablet"
+      },{
+        "id": 59,
+        "title": "Samsung Galaxy Tab A7 Lite 3GB/32GB",
+        "price": 4090000,
+        "description": "Samsung Galaxy Tab A7 Lite là tablet giá rẻ với thiết kế nhỏ gọn, hiệu năng ổn định, thích hợp cho nhu cầu giải trí và học tập cơ bản.",
+        "image": "./imgs-projectsale/tabletsProduct/55.jpg",
+        "images": [
+          "./imgs-projectsale/tabletsProduct/55.jpg",
+          "./imgs-projectsale/tabletsProduct/56.jpg",
+          "./imgs-projectsale/tabletsProduct/57.jpg"
+        ],
+        "category": "tablet"
+      },
+      {
+        "id": 60,
+        "title": "Lenovo Tab M10 4GB/64GB",
+        "price": 5290000,
+        "description": "Lenovo Tab M10 là tablet tầm trung với màn hình lớn, hiệu năng tốt, phục vụ tốt nhu cầu học tập và giải trí của người dùng.",
+        "image": "./imgs-projectsale/tabletsProduct/58.jpg",
+        "images": [
+          "./imgs-projectsale/tabletsProduct/58.jpg",
+          "./imgs-projectsale/tabletsProduct/59.jpg",
+          "./imgs-projectsale/tabletsProduct/60.jpg"
+        ],
+        "category": "tablet"
+      }
+    ]
+  }

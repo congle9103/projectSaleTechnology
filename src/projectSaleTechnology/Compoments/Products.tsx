@@ -53,7 +53,7 @@
                 alt="Product image"
               />
               <div className="grid p-2">
-                <div className="w-[200px] h-[48px]">{productData.title}</div>
+                <div className="w-[200px] h-[48px] font-medium">{productData.title}</div>
                 {discount > 0 ? (
                   <div className="pb-1">
                     <div className="flex justify-between">
