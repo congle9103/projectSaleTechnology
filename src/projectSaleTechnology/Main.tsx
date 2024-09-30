@@ -2,6 +2,7 @@
   import { Link } from "react-router-dom";
   import Products from "./Compoments/Products";
   import { FaArrowRight, FaArrowUp } from "react-icons/fa";
+import Slider from "./Slider";
 
   const Main = () => {
 
@@ -32,7 +33,7 @@
             <div className="py-[10px] ml-[8px] mr-[12px] font-semibold text-blue-900"><Link className="flex" to={"/FlashSale"}>More &nbsp; <FaArrowRight className='mt-1'/></Link></div>
           </div>
           <div className="grid grid-cols-5 gap-2">
-            <Products productStart={0} productEnd={5}/>
+            <Products productStart={20} productEnd={25}/>
           </div>
         </div>
 
@@ -42,7 +43,7 @@
             <div className="py-[10px] ml-[8px] mr-[12px] font-semibold text-blue-900"><Link className="flex" to={"/Mall"}>More &nbsp; <FaArrowRight className='mt-1'/></Link></div>
           </div>
           <div className="grid grid-cols-5 gap-2">
-          <Products label='Mall' productStart={4} productEnd={9}/>
+          <Products productStart={40} productEnd={45}/>
           </div>
         </div>
 
@@ -52,9 +53,20 @@
             <div className="py-[10px] ml-[8px] mr-[12px] font-semibold text-blue-900"><Link className="flex" to={"/JustForYou"}>More &nbsp; <FaArrowRight className='mt-1'/></Link></div>
           </div>
           <div className="grid grid-cols-5 gap-2">
-          <Products productStart={8} productEnd={13}/>
+          <Products productStart={10} productEnd={15}/>
           </div>
         </div>
+
+        <div className="bg-white mt-[30px] p-[14px] pt-0 rounded">
+          <div className="flex">
+            <div className="py-[10px] ml-[8px] text-xl flex-1">Just For You</div>
+            <div className="py-[10px] ml-[8px] mr-[12px] font-semibold text-blue-900"><Link className="flex" to={"/JustForYou"}>More &nbsp; <FaArrowRight className='mt-1'/></Link></div>
+          </div>
+          <div className="grid grid-cols-5 gap-2">
+          <Products productStart={15} productEnd={20}/>
+          </div>
+        </div>
+
         {isVisible && (
           <div
             onClick={handleScrollTo}

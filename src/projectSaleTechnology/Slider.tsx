@@ -25,7 +25,7 @@ const Slider = () => {
 
         <SwiperSlide>
           <img
-            src="./imgs-projectsale/honor-200-1200x375-2.png"
+            src="./imgs-projectsale/galaxy-a06-1200x375-01.jpg"
             alt=""
             className='w-[1200px] h-auto'
           />
@@ -33,7 +33,7 @@ const Slider = () => {
 
         <SwiperSlide>
           <img
-            src="./imgs-projectsale/ss-s24fe-pc.jpg"
+            src="./imgs-projectsale/banner-web-14t-dt_638629619508935983.jpg"
             alt=""
             className='w-[1200px] h-auto'
           />

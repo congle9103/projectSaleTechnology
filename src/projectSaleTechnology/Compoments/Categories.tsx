@@ -4,7 +4,6 @@ import { FaArrowLeft } from "react-icons/fa";
 
 type TCategories = {
   nameCategory?: string
-  labelProduct?: string
   productStart?: number
   productEnd?: number
 }
@@ -22,7 +21,7 @@ const Categories = (Categories: TCategories) => {
           </div>
         </div>
         <div className="grid grid-cols-4 gap-2">
-          <Products productStart={Categories.productStart} productEnd={Categories.productEnd} label={Categories.labelProduct}/>
+          <Products productStart={Categories.productStart} productEnd={Categories.productEnd}/>
         </div>
       </div>
     </div>

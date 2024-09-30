@@ -29,7 +29,7 @@ const Mall = () => {
       <Header />
       <div className="flex mx-[100px] pb-[100px] pt-[130px]">
         <Sidebar />
-        <Categories productStart={0} productEnd={100} nameCategory="Mall" labelProduct="Mall"/>
+        <Categories productStart={0} productEnd={100} nameCategory="Mall"/>
       </div>
       <Footer />
       {isVisible && (
