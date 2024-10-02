@@ -1,11 +1,9 @@
 import { Link } from "react-router-dom";
-import Products from "./Products";
+import Product from "./Product";
 import { FaArrowLeft } from "react-icons/fa";
 
 type TCategories = {
   nameCategory?: string
-  productStart?: number
-  productEnd?: number
 }
 
 const Categories = (Categories: TCategories) => {
@@ -20,8 +18,8 @@ const Categories = (Categories: TCategories) => {
           <Link className="flex" to={"/"}> Home&nbsp; <FaArrowLeft className="mt-1"/></Link>
           </div>
         </div>
-        <div className="grid grid-cols-4 gap-2">
-          <Products productStart={Categories.productStart} productEnd={Categories.productEnd}/>
+        <div className="grid grid-cols-5 gap-2">
+          <Product selectedCategories="laptop"/>
         </div>
       </div>
     </div>

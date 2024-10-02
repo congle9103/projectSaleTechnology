@@ -1,5 +1,5 @@
-import Header from "./Compoments/Header";
-import Footer from "./Compoments/Footer";
+import Header from "./Components/Header";
+import Footer from "./Components/Footer";
 import Slider from "./Slider";
 import Main from "./Main";
 

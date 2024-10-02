@@ -1,4 +1,4 @@
-import { Pagination, Scrollbar, A11y, Autoplay } from "swiper/modules";
+import { Scrollbar, A11y, Autoplay, Navigation } from "swiper/modules";
 import { Swiper, SwiperSlide } from "swiper/react";
 import 'swiper/swiper-bundle.css';
 
@@ -6,14 +6,17 @@ const Slider = () => {
   return (
     <div className='w-[1200px] relative overflow-hidden'>
       <Swiper
-        modules={[Pagination, Scrollbar, A11y, Autoplay]}
+        modules={[ Scrollbar, A11y, Autoplay, Navigation]}
         slidesPerView={1}
         loop={true}
         autoplay={{
           delay: 4000,
           disableOnInteraction: false,
         }}
-        pagination={{ clickable: true }}  
+        navigation={{
+          nextEl: '.swiper-button-next',
+          prevEl: '.swiper-button-prev',
+        }}
       >
         <SwiperSlide>
           <img
@@ -38,6 +41,10 @@ const Slider = () => {
             className='w-[1200px] h-auto'
           />
         </SwiperSlide>
+
+        {/* Tùy chỉnh nút điều hướng bằng Tailwind */}
+        <div className="swiper-button-next mx-4 text-gray-500 text-xs hover:text-gray-300"></div>
+        <div className="swiper-button-prev mx-4 text-gray-500 text-xs hover:text-gray-300"></div>
       </Swiper>
     </div>
   );

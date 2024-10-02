@@ -15,12 +15,7 @@ interface TProductData {
   description: string;
 }
 
-interface TProductProgs {
-  discount?: number;
-  label?: string;
-}
-
-const ProductsManager = (productsProgs: TProductProgs) => {
+const ProductsManager = () => {
   const navigate = useNavigate();
   const [param] = useSearchParams();
   const page_str = param.get("page");
@@ -101,7 +96,7 @@ const ProductsManager = (productsProgs: TProductProgs) => {
 
   const formRef = React.useRef<HTMLFormElement>(null)
 
-  const handleSubmit = (e) => {
+  const handleSubmit = (e:any) => {
     e.preventDefault();
     const productImage = e.target.elements.productImage.value
     const productTitle = e.target.elements.productTitle.value;

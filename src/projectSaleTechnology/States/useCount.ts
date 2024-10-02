@@ -5,7 +5,7 @@ interface CountState {
     setCount: ()=>void
 }
 
-export const useCount = create<CountState>((set, get) => ({
+export const useCount = create<CountState>((set) => ({
     count: 0,
     setCount: () => set((state) => ({ count: state.count + 1}))
 }))

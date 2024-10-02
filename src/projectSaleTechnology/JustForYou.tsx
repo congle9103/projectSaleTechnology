@@ -1,8 +1,8 @@
 import React, { useEffect, useState } from "react";
-import Categories from "./Compoments/Categories";
+import Categories from "./Components/Categories";
 import Sidebar from "./Sidebar";
-import Footer from "./Compoments/Footer";
-import Header from "./Compoments/Header";
+import Footer from "./Components/Footer";
+import Header from "./Components/Header";
 import { FaArrowUp } from "react-icons/fa";
 
 const JustForYou = () => {

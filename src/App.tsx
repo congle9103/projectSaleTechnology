@@ -4,7 +4,7 @@ import LayoutSale from "./projectSaleTechnology/LayoutSale";
 import FlashSale from "./projectSaleTechnology/FlashSale";
 import Mall from "./projectSaleTechnology/Mall";
 import JustForYou from "./projectSaleTechnology/JustForYou";
-import ProductsManager from "./projectSaleTechnology/Compoments/ProductsManager";
+import ProductsManager from "./projectSaleTechnology/Components/ProductsManager";
 
 const queryClient = new QueryClient();
 
