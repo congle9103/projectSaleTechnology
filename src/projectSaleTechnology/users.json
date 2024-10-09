@@ -1,0 +1,52 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "username": "admin1",
+      "password": "12345678",
+      "orders": []
+    },
+    {
+      "id": 2,
+      "username": "congle",
+      "email": "congle9103@gmail.com",
+      "password": "12345678",
+      "order": []
+    },
+    {
+      "id": 3,
+      "username": "conglee",
+      "email": "congle9103e@gmail.com",
+      "password": "12345678",
+      "order": []
+    },
+    {
+      "id": 4,
+      "username": "congleee",
+      "email": "congle9103ee@gmail.com",
+      "password": "12345678",
+      "order": []
+    },
+    {
+      "id": 5,
+      "username": "congleeee",
+      "email": "congle9103eee@gmail.com",
+      "password": "12345678",
+      "order": []
+    },
+    {
+      "id": 6,
+      "username": "congle1",
+      "email": "congle91031@gmail.com",
+      "password": "12345678",
+      "order": []
+    },
+    {
+      "id": 7,
+      "username": "congle2",
+      "email": "congle91032@gmail.com",
+      "password": "12345678",
+      "order": []
+    }
+  ]
+}

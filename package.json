@@ -7,7 +7,9 @@
     "dev": "vite",
     "build": "tsc && vite build",
     "lint": "eslint . --ext ts,tsx --report-disable-derectives --max-warnings 0",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "api": "json-server --watch src/projectSaleTechnology/api.json --port 3000",
+    "users": "json-server --watch src/projectSaleTechnology/users.json --port 3001"
   },
   "dependencies": {
     "@tanstack/react-query": "^5.56.2",

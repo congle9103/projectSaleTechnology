@@ -1,18 +1,64 @@
 import { useState } from "react";
 import { IoIosClose } from "react-icons/io";
 import { useModalStore } from "./States/useModalStore"; // Import Zustand store
+import axios from "axios";
+import { useUserStore } from "./States/useUserStore";
 
-const Login = ({ onCloseLogin }: { onCloseLogin: () => void }) => {
+interface User {
+  username: string;
+  email: string;
+  password: string;
+  confirmPassword: string;
+  id: number;
+}
+
+const Login = () => {
   const [username, setUsername] = useState(""); // State cho tên người dùng
   const [password, setPassword] = useState(""); // State cho mật khẩu
   const toggleModal = useModalStore((state) => state.toggleModal); // Đóng modal
   const setIsLogin = useModalStore((state) => state.setIsLogin); // Chuyển qua trang Register
+  const [errors, setErrors] = useState({
+    username: "",
+    email: "",
+    password: "",
+    confirmPassword: "",
+  });
+  const { setUser } = useUserStore();
 
-  const handleSubmit = (e: any) => {
+
+  const handleSubmit = async (e: any) => {
     e.preventDefault();
-    // Xử lý logic đăng nhập tại đây
     console.log("Tên người dùng:", username);
     console.log("Mật khẩu:", password);
+
+    // Kiểm tra xem có trùng username với các tài khoản đã đăng ký chưa
+    try {
+      const response = await axios.get<User[]>(`http://localhost:3001/users`); // Lấy danh sách người dùng từ API
+      let existingUsernames = response.data.map(user => user.username); // Trích xuất danh sách tên người dùng
+      let existingPasswords = response.data.map(user => user.password); // Trích xuất danh sách password người dùng
+
+      const users = response.data;
+
+      // Kiểm tra xem người dùng có tồn tại trong API với username và password khớp không
+      const user = users.find(
+        (user) => user.username === username && user.password === password
+      )
+
+      // Kiểm tra username và password có trùng với dữ liệu trong api không
+      if (user && existingUsernames.includes(username) && existingPasswords.includes(password)) {
+        console.log('Login thành công');
+        console.log('user:',user);
+        
+      } else {
+        setErrors((prevErrors) => ({
+          ...prevErrors,
+          password: "Tài khoản hoặc mật khẩu không hợp lệ."
+        }));
+        return
+      }
+    } catch (error) {
+      console.error("Lỗi khi gọi api:", error);
+    }
   };
 
   return (
@@ -45,6 +91,7 @@ const Login = ({ onCloseLogin }: { onCloseLogin: () => void }) => {
               placeholder="Nhập tên người dùng"
               required
             />
+            {errors.username && <span className="text-red-500 text-sm">{errors.username}</span>}
           </div>
 
           {/* Trường mật khẩu */}
@@ -61,6 +108,7 @@ const Login = ({ onCloseLogin }: { onCloseLogin: () => void }) => {
               placeholder="Nhập mật khẩu"
               required
             />
+            {errors.password && <span className="text-red-500 text-sm">{errors.password}</span>}
           </div>
 
           <button

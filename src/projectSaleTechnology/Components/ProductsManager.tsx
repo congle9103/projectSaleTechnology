@@ -117,7 +117,7 @@ const ProductsManager = () => {
     queryKey: ["Products", page],
     queryFn: () =>
       axios.get(
-        `http://localhost:4000/saleTechnology?offset=${offset}&limit=12`
+        `http://localhost:3000/saleTechnology?offset=${offset}&limit=12`
       ),
   });
 

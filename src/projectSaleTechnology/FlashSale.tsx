@@ -1,6 +1,5 @@
-import React, { useEffect, useState } from "react";
+import { useEffect, useState } from "react";
 import Categories from "./Components/Categories";
-import Sidebar from "./Sidebar";
 import Footer from "./Components/Footer";
 import Header from "./Components/Header";
 import { FaArrowUp } from "react-icons/fa";
@@ -23,13 +22,13 @@ const FlashSale = () => {
     window.scrollTo({
       top: 0,
       behavior: 'smooth'
-    })}
+    })
+  }
 
   return (
     <div className="bg-slate-100">
       <Header />
       <div className="flex mx-[100px] pb-[100px] pt-[130px]">
-        <Sidebar />
         <Categories
           nameCategory="Flash Sale"
         />

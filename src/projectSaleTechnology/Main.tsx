@@ -88,16 +88,6 @@ const Main = () => {
       <div className="bg-white mt-[30px] p-[14px] pt-0 rounded">
         <div className="flex justify-between">
           <div className="py-[10px] ml-[8px] text-xl font-semibold">Tablet</div>
-        </div>
-        <div className="grid grid-cols-5 gap-2">
-          <Products selectedCategories="tablet" />
-        </div>
-      </div>
-
-      {/* Section có nút Sign Up */}
-      <div className="bg-white mt-[30px] p-[14px] pt-0 rounded">
-        <div className="flex justify-between">
-          <div className="py-[10px] ml-[8px] text-xl font-semibold">Tablet</div>
           <div
             onClick={toggleModal}  // Khi nhấn vào sẽ toggle modal mở/đóng
             className="py-[10px] mr-[12px] font-semibold text-blue-900 cursor-pointer"
@@ -114,9 +104,9 @@ const Main = () => {
       {isModalOpen && (
         <div className="fixed inset-0 bg-gray-800 bg-opacity-50 flex items-center justify-center z-50">
           {isLogin ? (
-            <Login onCloseLogin={toggleModal} />
+            <Login />
           ) : (
-            <Register onCloseRegister={toggleModal} />
+            <Register />
           )}
         </div>
       )}

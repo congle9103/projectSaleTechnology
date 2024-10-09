@@ -21,7 +21,7 @@ const Products = (productProgs : TProduct) => {
 
   const { isPending, error, data } = useQuery({
     queryKey: ["Products"],
-    queryFn: () => axios.get("http://localhost:4000/saleTechnology"),
+    queryFn: () => axios.get("http://localhost:3000/saleTechnology"),
   });
 
   const handleBuyNow = () => {
@@ -59,11 +59,11 @@ const Products = (productProgs : TProduct) => {
   const filteredProducts = data?.data.filter((productData: TProduct) => productData.category === `${productProgs.selectedCategories}`);
 
   // Chỉ lấy ra 5 sản phẩm đầu tiên
-  //const limitedProducts = filteredProducts?.slice(0, 5);
+  const limitedProducts = filteredProducts?.slice(0, 5);
 
   return (
     <>
-      {filteredProducts?.map((productData: TProduct) => (
+      {limitedProducts?.map((productData: TProduct) => (
           <div className=" border-gray-200 rounded-lg border-[1px] overflow-hidden pt-2" key={productData.id}>
             <img
               className="w-full h-[240px] object-contain transition-transform duration-300 ease-in-out transform hover:scale-105"

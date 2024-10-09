@@ -8,7 +8,7 @@ type TCategories = {
 
 const Categories = (Categories: TCategories) => {
   return (
-    <div className="w-[968px]">
+    <div className="w-[1200px] mt-[30px] mx-auto">
       <div className="bg-white">
         <div className="flex">
           <div className="py-[10px] ml-[8px] text-xl flex-1">

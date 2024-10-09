@@ -33,8 +33,8 @@ const Header = () => {
   }, [count]);
 
   return (
-    <div className='px-[60px] bg-blue-900 fixed left-0 right-0 top-0 z-[1000]'>
-      <div className='flex justify-between px-[140px] my-[16px]'>
+    <div className='px-[160px] bg-blue-900 fixed left-0 right-0 top-0 z-[1000]'>
+      <div className='flex justify-between mx-[60px] my-[16px]'>
         <div className='text-white font-bold text-5xl mb-1'>
           <Link onClick={handleScrollTo} to={"/"}>
             <IoLogoXing />
@@ -58,21 +58,19 @@ const Header = () => {
           </div>
         </Link>
       </div>
-      <div className='flex justify-between h-[30px] mx-[100px] text-white rounded-xl'>
-        <div className='cursor-pointer w-[100px] text-center flex-1 hover:text-blue-900 hover:bg-white transition'>Máy tính bàn</div>
-        <div className='cursor-pointer w-[100px] text-center flex-1 hover:text-blue-900 hover:bg-white transition'>Laptop</div>
-        <div className='cursor-pointer w-[100px] text-center flex-1 hover:text-blue-900 hover:bg-white transition'>Tablet</div>
-        <div className='cursor-pointer w-[100px] text-center flex-1 hover:text-blue-900 hover:bg-white transition'>Điện thoại</div>
-        <div className='cursor-pointer w-[100px] text-center flex-1 hover:text-blue-900 hover:bg-white transition'>Đồng hồ</div>
-        <div className='cursor-pointer w-[100px] text-center flex-1 hover:text-blue-900 hover:bg-white transition'>Tai nghe</div>
-        <div className='cursor-pointer w-[100px] text-center flex-1 hover:text-blue-900 hover:bg-white transition'>Phụ kiện</div>
+      <div className='flex justify-between h-[30px] text-white rounded-xl'>
+        <div className='rounded-tl-md rounded-tr-md cursor-pointer w-[100px] text-center flex-1 hover:text-blue-900 hover:bg-white transition'>Điện thoại</div>
+        <div className='rounded-tl-md rounded-tr-md cursor-pointer w-[100px] text-center flex-1 hover:text-blue-900 hover:bg-white transition'>Laptop</div>
+        <div className='rounded-tl-md rounded-tr-md cursor-pointer w-[100px] text-center flex-1 hover:text-blue-900 hover:bg-white transition'>Tablet</div>
+        <div className='rounded-tl-md rounded-tr-md cursor-pointer w-[100px] text-center flex-1 hover:text-blue-900 hover:bg-white transition'>Đồng hồ</div>
+        <div className='rounded-tl-md rounded-tr-md cursor-pointer w-[100px] text-center flex-1 hover:text-blue-900 hover:bg-white transition'>Tai nghe</div>
+        <div className='rounded-tl-md rounded-tr-md cursor-pointer w-[100px] text-center flex-1 hover:text-blue-900 hover:bg-white transition'>Phụ kiện</div>
       </div>
       {/* Thông báo "Đã thêm vào giỏ hàng" */}
       {showAddToCartMessage && (
         <div
-          className={`absolute bg-green-500 text-white px-4 py-2 rounded-lg shadow-lg top-[74px] right-[360px] z-50 transition-opacity duration-500 ease-in-out ${
-            isAddToCartMessageFadeOpacity ? 'opacity-100' : 'opacity-0'
-          }`}
+          className={`absolute bg-green-500 text-white px-4 py-2 rounded-lg shadow-lg top-[74px] right-[380px] z-50 transition-opacity duration-500 ease-in-out ${isAddToCartMessageFadeOpacity ? 'opacity-100' : 'opacity-0'
+            }`}
         >
           Đã thêm vào giỏ hàng
           <div className='absolute right-[10px] top-[-8px] w-0 h-0 border-l-[10px] border-l-transparent border-r-[10px] border-r-transparent border-b-[10px] border-b-green-500'></div>
